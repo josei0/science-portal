@@ -32,6 +32,14 @@ export async function registerAction(formData: FormData) {
   const gradeLevel = formData.get("gradeLevel") as string;
   const email = `${username}@scienceportal.local`;
 
+  if (role === "teacher") {
+    const teacherCode = formData.get("teacherCode") as string;
+    const validCode = process.env.TEACHER_ACCESS_CODE || "GURU2024";
+    if (teacherCode !== validCode) {
+      return { error: "Kode Akses Guru salah. Silakan hubungi admin." };
+    }
+  }
+
   const { error } = await supabase.auth.signUp({
     email,
     password,
