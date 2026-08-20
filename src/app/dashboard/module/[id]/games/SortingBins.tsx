@@ -43,8 +43,8 @@ export default function SortingBins({ materialId, currentHighscore, gameData, on
         icon: "📦",
         color: colors[index % colors.length]
       }));
-      rawItems = gameData.sorting_bins.items.map((i: any) => ({
-        id: i.id,
+      rawItems = gameData.sorting_bins.items.map((i: any, idx: number) => ({
+        id: i.id || `item-${idx}`,
         text: i.title || i.text || "Item",
         binId: i.correctBinId || i.binId
       }));
@@ -181,9 +181,12 @@ export default function SortingBins({ materialId, currentHighscore, gameData, on
     );
   }
 
-  if (items.length === 0) return null;
-
+  if (items.length === 0) {
+    return <div className="p-8 text-center text-red-500">DEBUG: items is empty! rawItems mapped incorrectly? gameData is: {JSON.stringify(gameData)}</div>;
+  }
+  
   const currentItem = items[currentIdx];
+
 
   return (
     <div className="flex flex-col h-full items-center max-w-4xl mx-auto w-full relative">
