@@ -181,9 +181,7 @@ export default function SortingBins({ materialId, currentHighscore, gameData, on
     );
   }
 
-  if (items.length === 0) {
-    return <div className="p-8 text-center text-red-500">DEBUG: items is empty! rawItems mapped incorrectly? gameData is: {JSON.stringify(gameData)}</div>;
-  }
+  if (items.length === 0) return null;
   
   const currentItem = items[currentIdx];
 

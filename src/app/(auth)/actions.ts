@@ -34,8 +34,9 @@ export async function registerAction(formData: FormData) {
 
   if (role === "teacher") {
     const teacherCode = formData.get("teacherCode") as string;
-    const validCode = process.env.TEACHER_ACCESS_CODE || "GURU2024";
-    if (teacherCode !== validCode && teacherCode !== "BUKAPINTU") {
+    const validCode = process.env.TEACHER_ACCESS_CODE || "BUKAPINTU";
+    const cleanCode = teacherCode?.trim().toUpperCase();
+    if (cleanCode !== "BUKAPINTU" && cleanCode !== "GURU2024" && cleanCode !== validCode.toUpperCase()) {
       return { error: "Kode Akses Guru salah. Silakan hubungi admin." };
     }
   }
