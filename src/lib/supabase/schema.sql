@@ -112,7 +112,7 @@ BEGIN
   VALUES (
     NEW.id,
     COALESCE(NEW.raw_user_meta_data->>'display_name', 'Student'),
-    COALESCE(NEW.raw_user_meta_data->>'role', 'student')
+    'student'
   );
   RETURN NEW;
 END;
@@ -121,6 +121,9 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
 CREATE TRIGGER on_auth_user_created
   AFTER INSERT ON auth.users
   FOR EACH ROW EXECUTE FUNCTION public.handle_new_user();
+
+-- After this base schema, apply migrations/20261026_protect_profile_roles.sql.
+-- It prevents authenticated clients from granting themselves teacher access.
 
 -- 6. SEED FIRST MATERIAL (Panca Indra)
 INSERT INTO materials (title, description, category, topic_order, game_slug, game_type, kkm_score, badge_name)

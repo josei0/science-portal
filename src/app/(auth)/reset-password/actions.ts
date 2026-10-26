@@ -1,215 +1,137 @@
 "use server";
 
+import { createHash, timingSafeEqual } from "node:crypto";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-/**
- * Reset a student's password. Only accessible by teachers.
- */
+type ResetResult = { success: true; error?: never } | { error: string; success?: never };
+type AdminClient = ReturnType<typeof createAdminClient>;
+const unavailable = "Reset password belum dapat diproses. Silakan hubungi admin.";
+const accountMismatch = "Akun tidak ditemukan atau tipe akun tidak sesuai.";
+
+function validatePassword(password: unknown): string | null {
+  if (typeof password !== "string" || password.length < 6) {
+    return "Password baru harus minimal 6 karakter.";
+  }
+  if (password.length > 128) return "Password baru maksimal 128 karakter.";
+  return null;
+}
+
+function validRecoveryCode(code: unknown): boolean {
+  // Recovery is an administrator-assisted operation, separate from teacher signup.
+  const expected = process.env.PASSWORD_RESET_ACCESS_CODE?.trim();
+  const signupCode = process.env.TEACHER_ACCESS_CODE?.trim();
+  if (!expected || expected.length < 32 || expected.length > 256 || typeof code !== "string" || code.length > 256) {
+    return false;
+  }
+  if (expected.toLowerCase() === signupCode?.toLowerCase()) return false;
+  const digest = (value: string) => createHash("sha256").update(value).digest();
+  return timingSafeEqual(digest(code.trim()), digest(expected));
+}
+
+async function updatePassword(
+  admin: AdminClient,
+  userId: string,
+  password: string
+): Promise<ResetResult> {
+  const { data, error } = await admin.auth.admin.updateUserById(userId, { password });
+  if (error) {
+    if (error.code === "weak_password") {
+      return { error: "Password belum memenuhi kebijakan keamanan. Gunakan password yang lebih kuat." };
+    }
+    if (error.code === "same_password") {
+      return { error: "Password baru harus berbeda dari password sebelumnya." };
+    }
+    return { error: unavailable };
+  }
+  if (!data.user) return { error: unavailable };
+  return { success: true };
+}
+
+/** Authenticated teachers may reset students only, never another teacher. */
 export async function resetStudentPassword(
   studentId: string,
   newPassword: string
-) {
-  // Verify the caller is a logged-in teacher
-  const supabase = await createClient();
-  const { data: authData } = await supabase.auth.getUser();
-  if (!authData.user) return { error: "Not logged in" };
-
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("role")
-    .eq("id", authData.user.id)
-    .single();
-
-  if (profile?.role !== "teacher") {
-    return { error: "Only teachers can reset student passwords." };
-  }
-
-  if (!newPassword || newPassword.length < 6) {
-    return { error: "Password harus minimal 6 karakter." };
+): Promise<ResetResult> {
+  const passwordError = validatePassword(newPassword);
+  if (passwordError) return { error: passwordError };
+  if (typeof studentId !== "string" || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(studentId)) {
+    return { error: "ID siswa tidak valid." };
   }
 
   try {
-    // Use admin client to update the student's password
-    const adminClient = createAdminClient();
-    const { error } = await adminClient.auth.admin.updateUserById(studentId, {
-      password: newPassword,
-    });
+    const supabase = await createClient();
+    const { data, error: authError } = await supabase.auth.getUser();
+    if (authError || !data.user) return { error: "Silakan login kembali." };
 
-    if (error) {
-      if (error.message?.toLowerCase().includes("invalid api key")) {
-        return {
-          error:
-            "Kunci SUPABASE_SERVICE_ROLE_KEY di .env.local belum valid. Masukkan secret key dari Supabase Dashboard.",
-        };
-      }
-      return { error: `Gagal reset password: ${error.message}` };
+    const { data: caller, error: callerError } = await supabase
+      .from("profiles").select("role").eq("id", data.user.id).single();
+    if (callerError || caller?.role !== "teacher") {
+      return { error: "Hanya guru yang dapat mereset password siswa." };
     }
 
-    return { success: true };
-  } catch (err: any) {
-    return { error: err?.message || "Terjadi kesalahan saat memproses reset password." };
+    const admin = createAdminClient();
+    const { data: target, error: targetError } = await admin
+      .from("profiles").select("role").eq("id", studentId).single();
+    if (targetError || target?.role !== "student") return { error: accountMismatch };
+
+    return await updatePassword(admin, studentId, newPassword);
+  } catch {
+    return { error: unavailable };
   }
 }
 
-/**
- * Reset a teacher's password using access code verification.
- * This is for the "forgot password" flow — no login required.
- */
+async function resetWithRecoveryCode(
+  username: unknown,
+  accessCode: unknown,
+  newPassword: unknown,
+  role: "student" | "teacher"
+): Promise<ResetResult> {
+  if (!validRecoveryCode(accessCode)) {
+    return { error: "Kode pemulihan tidak valid atau layanan belum diaktifkan. Silakan hubungi admin." };
+  }
+  const passwordError = validatePassword(newPassword);
+  if (passwordError) return { error: passwordError };
+  if (typeof username !== "string" || !username.trim() || username.trim().length > 64 || /[\s@]/.test(username.trim())) {
+    return { error: "Masukkan username yang valid, tanpa spasi atau alamat email." };
+  }
+  const email = `${username.trim().toLowerCase()}@scienceportal.local`;
+
+  try {
+    const admin = createAdminClient();
+    // listUsers is paginated. Searching only the first page misses older accounts.
+    const perPage = 100;
+    for (let page = 1; ; page++) {
+      const { data, error } = await admin.auth.admin.listUsers({ page, perPage });
+      if (error) return { error: unavailable };
+      const user = data.users.find((candidate) => candidate.email?.toLowerCase() === email);
+      if (user) {
+        // Never authorize based on user_metadata, which the user can edit.
+        const { data: profile, error: profileError } = await admin
+          .from("profiles").select("role").eq("id", user.id).single();
+        if (profileError || profile?.role !== role) return { error: accountMismatch };
+        return await updatePassword(admin, user.id, newPassword as string);
+      }
+      if (data.users.length < perPage) return { error: accountMismatch };
+    }
+  } catch {
+    return { error: unavailable };
+  }
+}
+
+/** Public entry points require the private administrator recovery credential. */
 export async function resetTeacherPassword(
   username: string,
   accessCode: string,
   newPassword: string
-) {
-  // Validate access code (case-insensitive, supports BUKAPINTU and GURU2024)
-  const validCode = process.env.TEACHER_ACCESS_CODE || "BUKAPINTU";
-  const cleanCode = accessCode?.trim().toUpperCase();
-  if (
-    cleanCode !== "BUKAPINTU" &&
-    cleanCode !== "GURU2024" &&
-    cleanCode !== validCode.toUpperCase()
-  ) {
-    return { error: "Kode Akses salah. Silakan periksa kembali atau hubungi admin." };
-  }
-
-  if (!newPassword || newPassword.length < 6) {
-    return { error: "Password baru harus minimal 6 karakter." };
-  }
-
-  if (!username || username.trim().length === 0) {
-    return { error: "Username tidak boleh kosong." };
-  }
-
-  const cleanUsername = username.trim().toLowerCase();
-  const email = `${cleanUsername}@scienceportal.local`;
-
-  try {
-    const adminClient = createAdminClient();
-    const { data: userList, error: listError } =
-      await adminClient.auth.admin.listUsers();
-
-    if (listError) {
-      if (listError.message?.toLowerCase().includes("invalid api key")) {
-        return {
-          error:
-            "Kunci SUPABASE_SERVICE_ROLE_KEY di .env.local belum valid. Masukkan secret key dari Supabase Dashboard.",
-        };
-      }
-      return { error: `Terjadi kesalahan: ${listError.message}` };
-    }
-
-    const targetUser = userList.users.find(
-      (u) => u.email?.toLowerCase() === email
-    );
-
-    if (!targetUser) {
-      return { error: `Username "${username}" tidak ditemukan.` };
-    }
-
-    // Verify the user is actually a teacher (check user_metadata and profiles table)
-    let isTeacher = targetUser.user_metadata?.role === "teacher";
-    if (!isTeacher) {
-      const { data: profile } = await adminClient
-        .from("profiles")
-        .select("role")
-        .eq("id", targetUser.id)
-        .single();
-      if (profile?.role === "teacher") {
-        isTeacher = true;
-      }
-    }
-
-    if (!isTeacher) {
-      return {
-        error:
-          "Akun ini bukan akun guru. Untuk reset password siswa, silakan gunakan tab Siswa atau hubungi guru Anda.",
-      };
-    }
-
-    // Update the password
-    const { error: updateError } = await adminClient.auth.admin.updateUserById(
-      targetUser.id,
-      { password: newPassword }
-    );
-
-    if (updateError) {
-      return { error: `Gagal reset password: ${updateError.message}` };
-    }
-
-    return { success: true };
-  } catch (err: any) {
-    return { error: err?.message || "Terjadi kesalahan saat memproses reset password." };
-  }
+): Promise<ResetResult> {
+  return resetWithRecoveryCode(username, accessCode, newPassword, "teacher");
 }
 
-/**
- * Reset a student's password using access code verification.
- * This is for the student "forgot password" flow — no login required.
- * Students need to provide their username and the teacher/master access code.
- */
 export async function resetStudentPasswordPublic(
   username: string,
   accessCode: string,
   newPassword: string
-) {
-  // Validate access code (case-insensitive, supports BUKAPINTU and GURU2024)
-  const validCode = process.env.TEACHER_ACCESS_CODE || "BUKAPINTU";
-  const cleanCode = accessCode?.trim().toUpperCase();
-  if (
-    cleanCode !== "BUKAPINTU" &&
-    cleanCode !== "GURU2024" &&
-    cleanCode !== validCode.toUpperCase()
-  ) {
-    return { error: "Kode Akses salah. Silakan hubungi guru Anda." };
-  }
-
-  if (!newPassword || newPassword.length < 6) {
-    return { error: "Password baru harus minimal 6 karakter." };
-  }
-
-  if (!username || username.trim().length === 0) {
-    return { error: "Username tidak boleh kosong." };
-  }
-
-  const cleanUsername = username.trim().toLowerCase();
-  const email = `${cleanUsername}@scienceportal.local`;
-
-  try {
-    const adminClient = createAdminClient();
-    const { data: userList, error: listError } =
-      await adminClient.auth.admin.listUsers();
-
-    if (listError) {
-      if (listError.message?.toLowerCase().includes("invalid api key")) {
-        return {
-          error:
-            "Kunci SUPABASE_SERVICE_ROLE_KEY di .env.local belum valid. Masukkan secret key dari Supabase Dashboard.",
-        };
-      }
-      return { error: `Terjadi kesalahan: ${listError.message}` };
-    }
-
-    const targetUser = userList.users.find(
-      (u) => u.email?.toLowerCase() === email
-    );
-
-    if (!targetUser) {
-      return { error: `Username "${username}" tidak ditemukan.` };
-    }
-
-    // Update the password
-    const { error: updateError } = await adminClient.auth.admin.updateUserById(
-      targetUser.id,
-      { password: newPassword }
-    );
-
-    if (updateError) {
-      return { error: `Gagal reset password: ${updateError.message}` };
-    }
-
-    return { success: true };
-  } catch (err: any) {
-    return { error: err?.message || "Terjadi kesalahan saat memproses reset password." };
-  }
+): Promise<ResetResult> {
+  return resetWithRecoveryCode(username, accessCode, newPassword, "student");
 }
-

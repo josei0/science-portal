@@ -28,6 +28,7 @@ export default function ResetPasswordPage() {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (loading) return;
     setLoading(true);
     setError(null);
     setSuccess(false);
@@ -44,22 +45,19 @@ export default function ResetPasswordPage() {
       return;
     }
 
-    let result;
-    if (accountType === "teacher") {
-      result = await resetTeacherPassword(username, accessCode, newPassword);
-    } else {
-      result = await resetStudentPasswordPublic(
-        username,
-        accessCode,
-        newPassword
-      );
-    }
-
-    if (result?.error) {
-      setError(result.error);
-      setLoading(false);
-    } else {
-      setSuccess(true);
+    try {
+      const resetPassword = accountType === "teacher"
+        ? resetTeacherPassword
+        : resetStudentPasswordPublic;
+      const result = await resetPassword(username, accessCode, newPassword);
+      if (result.success) {
+        setSuccess(true);
+      } else {
+        setError(result.error || "Reset password gagal. Silakan coba kembali.");
+      }
+    } catch {
+      setError("Tidak dapat memproses permintaan. Periksa koneksi lalu coba kembali.");
+    } finally {
       setLoading(false);
     }
   }
@@ -113,7 +111,7 @@ export default function ResetPasswordPage() {
             Reset Password
           </h1>
           <p className="text-amber-200 mt-2 text-sm font-medium tracking-wide uppercase">
-            Atur ulang kata sandi akun Anda
+            Pemulihan akun dengan bantuan admin
           </p>
         </div>
 
@@ -157,6 +155,10 @@ export default function ResetPasswordPage() {
               )}
 
               <form onSubmit={handleSubmit} className="space-y-5">
+                <p className="text-sm text-gray-300 leading-relaxed">
+                  Siswa dapat meminta guru mereset password melalui menu Kelola Siswa.
+                  Formulir ini digunakan bersama admin setelah identitas pemilik akun diperiksa.
+                </p>
                 {/* Account Type Selector */}
                 <div>
                   <label className="block text-sm font-semibold text-gray-300 mb-2">
@@ -165,6 +167,7 @@ export default function ResetPasswordPage() {
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       type="button"
+                      disabled={loading}
                       onClick={() => setAccountType("student")}
                       className={`py-3 px-2 rounded-xl font-bold text-sm transition-all cursor-pointer border flex items-center justify-center gap-2 ${
                         accountType === "student"
@@ -177,6 +180,7 @@ export default function ResetPasswordPage() {
                     </button>
                     <button
                       type="button"
+                      disabled={loading}
                       onClick={() => setAccountType("teacher")}
                       className={`py-3 px-2 rounded-xl font-bold text-sm transition-all cursor-pointer border flex items-center justify-center gap-2 ${
                         accountType === "teacher"
@@ -203,7 +207,8 @@ export default function ResetPasswordPage() {
                       type="text"
                       name="username"
                       required
-                      autoComplete="off"
+                      autoComplete="username"
+                      maxLength={64}
                       placeholder="Masukkan username Anda"
                       className="w-full pl-11 pr-4 py-3.5 bg-black/30 backdrop-blur-sm rounded-xl border border-white/10 focus:border-amber-400 focus:bg-black/50 focus:ring-1 focus:ring-amber-400 focus:outline-none transition-all text-white placeholder:text-gray-500"
                     />
@@ -213,7 +218,7 @@ export default function ResetPasswordPage() {
                 {/* Access Code */}
                 <div>
                   <label className="block text-sm font-semibold text-gray-300 mb-1.5">
-                    Kode Akses
+                    Kode Pemulihan Admin
                   </label>
                   <div className="relative group">
                     <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-amber-400 transition-colors">
@@ -223,15 +228,14 @@ export default function ResetPasswordPage() {
                       type="password"
                       name="accessCode"
                       required
+                      maxLength={256}
                       autoComplete="off"
-                      placeholder="Masukkan kode akses"
+                      placeholder="Diisi oleh admin"
                       className="w-full pl-11 pr-4 py-3.5 bg-black/30 backdrop-blur-sm rounded-xl border border-white/10 focus:border-amber-400 focus:bg-black/50 focus:ring-1 focus:ring-amber-400 focus:outline-none transition-all text-white placeholder:text-gray-500"
                     />
                   </div>
                   <p className="text-xs text-gray-500 mt-1.5 pl-1">
-                    {accountType === "teacher"
-                      ? "Masukkan Kode Akses Guru untuk verifikasi."
-                      : "Minta kode akses dari guru Anda."}
+                    Admin memasukkan kode pemulihan pribadi. Kode pendaftaran guru tidak berlaku di sini.
                   </p>
                 </div>
 
@@ -249,6 +253,7 @@ export default function ResetPasswordPage() {
                       name="newPassword"
                       required
                       minLength={6}
+                      maxLength={128}
                       autoComplete="new-password"
                       placeholder="Minimal 6 karakter"
                       className="w-full pl-11 pr-4 py-3.5 bg-black/30 backdrop-blur-sm rounded-xl border border-white/10 focus:border-amber-400 focus:bg-black/50 focus:ring-1 focus:ring-amber-400 focus:outline-none transition-all text-white placeholder:text-gray-500"
@@ -270,6 +275,7 @@ export default function ResetPasswordPage() {
                       name="confirmPassword"
                       required
                       minLength={6}
+                      maxLength={128}
                       autoComplete="new-password"
                       placeholder="Ketik ulang password baru"
                       className="w-full pl-11 pr-4 py-3.5 bg-black/30 backdrop-blur-sm rounded-xl border border-white/10 focus:border-amber-400 focus:bg-black/50 focus:ring-1 focus:ring-amber-400 focus:outline-none transition-all text-white placeholder:text-gray-500"

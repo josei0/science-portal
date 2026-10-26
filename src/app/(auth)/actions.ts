@@ -1,6 +1,7 @@
 "use server";
 
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { redirect } from "next/navigation";
 
 export async function loginAction(formData: FormData) {
@@ -32,22 +33,36 @@ export async function registerAction(formData: FormData) {
   const gradeLevel = formData.get("gradeLevel") as string;
   const email = `${username}@scienceportal.local`;
 
+  if (role !== "student" && role !== "teacher") {
+    return { error: "Tipe akun tidak valid." };
+  }
+
   if (role === "teacher") {
     const teacherCode = formData.get("teacherCode") as string;
-    const validCode = process.env.TEACHER_ACCESS_CODE || "BUKAPINTU";
-    const cleanCode = teacherCode?.trim().toUpperCase();
-    if (cleanCode !== "BUKAPINTU" && cleanCode !== "GURU2024" && cleanCode !== validCode.toUpperCase()) {
+    const validCode = process.env.TEACHER_ACCESS_CODE?.trim();
+    const cleanCode = typeof teacherCode === "string" ? teacherCode.trim().toUpperCase() : "";
+    if (!validCode || cleanCode !== validCode.toUpperCase()) {
       return { error: "Kode Akses Guru salah. Silakan hubungi admin." };
     }
   }
 
-  const { error } = await supabase.auth.signUp({
+  // Validate admin configuration before creating a teacher account.
+  let admin: ReturnType<typeof createAdminClient> | undefined;
+  if (role === "teacher") {
+    try {
+      admin = createAdminClient();
+    } catch {
+      return { error: "Pendaftaran guru belum tersedia. Silakan hubungi admin." };
+    }
+  }
+
+  const { data: signupData, error } = await supabase.auth.signUp({
     email,
     password,
     options: {
       data: {
         display_name: displayName,
-        role: role,
+        role: "student",
         username: username,
       },
     },
@@ -55,6 +70,22 @@ export async function registerAction(formData: FormData) {
 
   if (error) {
     return { error: error.message };
+  }
+
+  // Only this server-side operation may grant a teacher role after code validation.
+  if (admin) {
+    if (!signupData.user || signupData.user.identities?.length === 0) {
+      return { error: "Akun sudah terdaftar. Silakan login atau hubungi admin." };
+    }
+    try {
+      const { error: promotionError } = await admin.from("profiles")
+        .update({ role: "teacher" }).eq("id", signupData.user.id).select("id").single();
+      if (promotionError) {
+        return { error: "Akun dibuat, tetapi akses guru belum aktif. Silakan hubungi admin." };
+      }
+    } catch {
+      return { error: "Akun dibuat, tetapi akses guru belum aktif. Silakan hubungi admin." };
+    }
   }
 
   // Update profile with grade_level after signup

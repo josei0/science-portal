@@ -1,14 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { Profile, gradeToCategory } from "@/lib/types";
+import { Profile, Progress, Material, gradeToCategory } from "@/lib/types";
 import { motion, AnimatePresence } from "framer-motion";
-import { Users, Search, Edit2, LineChart, X, Trophy, AlertTriangle, ArrowLeft, KeyRound } from "lucide-react";
+import { Users, Search, Edit2, LineChart, X, AlertTriangle, ArrowLeft, KeyRound } from "lucide-react";
 import Link from "next/link";
 import { updateStudent } from "../actions";
 import { resetStudentPassword } from "@/app/(auth)/reset-password/actions";
 
-export default function StudentsClient({ students, progressList }: { students: Profile[], progressList: any[] }) {
+type StudentProgress = Progress & { materials: Pick<Material, "title" | "category"> | null };
+
+export default function StudentsClient({ students, progressList }: { students: Profile[], progressList: StudentProgress[] }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [editingStudent, setEditingStudent] = useState<Profile | null>(null);
   const [viewingProgress, setViewingProgress] = useState<Profile | null>(null);
@@ -43,20 +45,26 @@ export default function StudentsClient({ students, progressList }: { students: P
   };
 
   const handleResetPassword = async () => {
-    if (!resettingStudent || !newPassword) return;
+    if (resetLoading || !resettingStudent || !newPassword) return;
     setResetLoading(true);
     setResetResult(null);
-    const result = await resetStudentPassword(resettingStudent.id, newPassword);
-    setResetLoading(false);
-    if (result.success) {
-      setResetResult({ success: true });
-      setNewPassword("");
-    } else {
-      setResetResult({ error: result.error });
+    try {
+      const result = await resetStudentPassword(resettingStudent.id, newPassword);
+      if (result.success) {
+        setResetResult({ success: true });
+        setNewPassword("");
+      } else {
+        setResetResult({ error: result.error });
+      }
+    } catch {
+      setResetResult({ error: "Tidak dapat memproses permintaan. Periksa koneksi lalu coba kembali." });
+    } finally {
+      setResetLoading(false);
     }
   };
 
   const closeResetModal = () => {
+    if (resetLoading) return;
     setResettingStudent(null);
     setNewPassword("");
     setResetResult(null);
@@ -230,7 +238,7 @@ export default function StudentsClient({ students, progressList }: { students: P
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {progressList.filter(p => p.user_id === viewingProgress.id).length === 0 ? (
                     <div className="col-span-full text-center p-12 opacity-50 font-bold border-2 border-dashed border-gray-300 rounded-2xl">
-                      Student hasn't started any modules yet.
+                      Student hasn&apos;t started any modules yet.
                     </div>
                   ) : (
                     progressList.filter(p => p.user_id === viewingProgress.id).map(prog => (
@@ -283,6 +291,7 @@ export default function StudentsClient({ students, progressList }: { students: P
             >
               <button 
                 onClick={closeResetModal}
+                disabled={resetLoading}
                 className="absolute top-6 right-6 opacity-50 hover:opacity-100"
               >
                 <X className="w-6 h-6" />
@@ -326,9 +335,12 @@ export default function StudentsClient({ students, progressList }: { students: P
                     <input 
                       type="password"
                       value={newPassword}
+                      disabled={resetLoading}
+                      autoComplete="new-password"
                       onChange={(e) => setNewPassword(e.target.value)}
                       placeholder="Minimal 6 karakter"
                       minLength={6}
+                      maxLength={128}
                       className="w-full px-4 py-3 bg-black/5 border border-black/10 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all font-medium"
                     />
                   </div>
