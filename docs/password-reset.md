@@ -1,18 +1,18 @@
 # Password recovery
 
-- Signed-in teachers reset student passwords from the student management page.
-- The public recovery page is operated with an administrator who verifies the account owner's identity first.
-- The administrator enters `PASSWORD_RESET_ACCESS_CODE`; never distribute it to students or teachers as a signup code. It can reset any account of the selected type.
+- The public `/reset-password` page provides help only. It contains no form and cannot change a password.
+- Students contact their teacher with their name and username. Signed-in teachers reset student passwords from the student management page.
+- Teachers contact their school administrator, who verifies their identity and handles recovery through authorized Supabase administration. There is no public teacher reset endpoint.
 - `TEACHER_ACCESS_CODE` is only for teacher registration. Built-in fallback codes are no longer accepted.
+- `PASSWORD_RESET_ACCESS_CODE` is no longer used. Its old environment variable may be removed from local and Vercel settings; it does not enable any recovery endpoint.
 
 ## Configuration and deployment
 
-1. Set `PASSWORD_RESET_ACCESS_CODE` to a cryptographically random secret of 32–256 characters, different from `TEACHER_ACCESS_CODE`. It is case-sensitive. Without this configuration, public recovery fails closed; teacher-assisted resets remain available.
-2. Configure a valid server-only `SUPABASE_SERVICE_ROLE_KEY` and `NEXT_PUBLIC_SUPABASE_URL`. Never prefix the recovery or service-role secrets with `NEXT_PUBLIC_`.
-3. Apply `src/lib/supabase/migrations/20261026_protect_profile_roles.sql` in the Supabase SQL Editor. The original policies allowed users to edit their own role, and the original signup trigger trusted user-editable metadata. Both permit escalation into the teacher reset flow without this migration. The migration preserves existing roles, so review existing teacher accounts separately.
-4. Deploy the application with these environment variables and restart it. Teacher signup now grants the role through the server admin client after access-code verification.
+1. Configure a valid server-only `SUPABASE_SERVICE_ROLE_KEY` and `NEXT_PUBLIC_SUPABASE_URL` for teacher-assisted student resets. Never prefix the service-role secret with `NEXT_PUBLIC_`.
+2. Apply `src/lib/supabase/migrations/20261026_protect_profile_roles.sql` in the Supabase SQL Editor. The original policies allowed users to edit their own role, and the original signup trigger trusted user-editable metadata. Both permit escalation into the teacher reset flow without this migration. The migration preserves existing roles, so review existing teacher accounts separately.
+3. Deploy the application with these environment variables and restart it. Teacher signup grants the role through the server admin client after access-code verification.
 
-The repository's base schema also needs the migration for a new database. Keep the recovery secret private, rotate it if disclosed, and use a unique random value rather than a memorable shared code. The current account emails use `@scienceportal.local`, so email recovery is not configured.
+The repository's base schema also needs the migration for a new database. The current account emails use `@scienceportal.local`, so email recovery is not configured.
 
 ## Local verification
 
