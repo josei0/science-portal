@@ -1,0 +1,40 @@
+{
+  "verifiedAt": "2026-10-26T12:38:21.989Z",
+  "previousMaxId": 32,
+  "previousCount": 32,
+  "modules": [
+    {
+      "id": 33,
+      "title": "Detektif Kebun: Daur Hidup Kupu-Kupu",
+      "category": "sd_1_3",
+      "topic_order": 11,
+      "game_slug": "sd13-detektif-daur-hidup-kupu-kupu",
+      "game_type": "sequence",
+      "quizQuestions": 6,
+      "is_published": true,
+      "url": "https://lcs-science-portal.vercel.app/dashboard/module/33"
+    },
+    {
+      "id": 34,
+      "title": "Laboratorium Air: Terapung atau Tenggelam?",
+      "category": "sd_1_3",
+      "topic_order": 12,
+      "game_slug": "sd13-laboratorium-terapung-tenggelam",
+      "game_type": "fill_blanks",
+      "quizQuestions": 6,
+      "is_published": true,
+      "url": "https://lcs-science-portal.vercel.app/dashboard/module/34"
+    },
+    {
+      "id": 35,
+      "title": "Misi Tetes Air: Memilih Bahan yang Tepat",
+      "category": "sd_1_3",
+      "topic_order": 13,
+      "game_slug": "sd13-misi-tetes-air-daya-serap",
+      "game_type": "dynamic_match",
+      "quizQuestions": 6,
+      "is_published": true,
+      "url": "https://lcs-science-portal.vercel.app/dashboard/module/35"
+    }
+  ]
+}
