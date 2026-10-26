@@ -1,0 +1,368 @@
+[
+  {
+    "id": 33,
+    "title": "Detektif Kebun: Daur Hidup Kupu-Kupu",
+    "description": "Temukan hubungan telur, ulat, kepompong, dan kupu-kupu. Pecahkan urutan catatan pengamatan dari sebuah kebun!",
+    "category": "sd_1_3",
+    "topic_order": 11,
+    "theory_content": "<h1>Siapa yang Berubah di Kebun?</h1>\n<p><strong>Untuk SD kelas 1–3 • 20–30 menit.</strong> Kelas 1 boleh membaca bersama guru atau orang tua. Kelas 2–3 mencoba menjelaskan alasan jawabannya sendiri.</p>\n<p>Di daun terlihat telur kecil. Beberapa waktu kemudian, ada ulat di dekatnya. Apakah telur itu berubah menjadi hewan yang berbeda, atau masih hewan yang sama pada tahap lain? Kita akan menelusuri petunjuknya!</p>\n<section style=\"margin:24px 0\"><h2>Misi belajarmu</h2><ul><li>Menyebutkan empat tahap daur hidup kupu-kupu.</li><li>Menghubungkan bentuk tubuh dengan kegiatan pada tiap tahap.</li><li>Menyusun catatan pengamatan sesuai urutan kejadian.</li></ul></section>\n<figure style=\"margin:24px 0\"><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTYwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+Cjx0aXRsZSBpZD0idGl0bGUiPkRhdXIgaGlkdXAga3VwdS1rdXB1PC90aXRsZT48ZGVzYyBpZD0iZGVzYyI+VGVsdXIsIHVsYXQsIHB1cGEsIGRld2FzYS4gUGFuYWggZGFyaSBkZXdhc2Ega2VtYmFsaSBrZSB0ZWx1ciBtZW51bmp1a2thbiBnZW5lcmFzaSBiZXJpa3V0bnlhLjwvZGVzYz4KPGRlZnM+PG1hcmtlciBpZD0iYXJyb3ciIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjYiIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAgMCA4IDQgMCA4IiBmaWxsPSIjMzQ4MzYzIi8+PC9tYXJrZXI+PC9kZWZzPgo8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjU2MCIgcng9IjI0IiBmaWxsPSIjZjBmZGY0Ii8+CjxnIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmaWxsPSIjMTYzYjJhIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KPHRleHQgeD0iNDAwIiB5PSI0OCIgZm9udC1zaXplPSIzMCIgZm9udC13ZWlnaHQ9IjcwMCI+U0FUVSBIRVdBTiwgRU1QQVQgVEFIQVA8L3RleHQ+CjxyZWN0IHg9IjMwIiB5PSI3OCIgd2lkdGg9IjMxMCIgaGVpZ2h0PSIxODAiIHJ4PSIyMCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYjllOWNhIiBzdHJva2Utd2lkdGg9IjIiLz4KPHJlY3QgeD0iNDYwIiB5PSI3OCIgd2lkdGg9IjMxMCIgaGVpZ2h0PSIxODAiIHJ4PSIyMCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYjllOWNhIiBzdHJva2Utd2lkdGg9IjIiLz4KPHJlY3QgeD0iNDYwIiB5PSIzMTgiIHdpZHRoPSIzMTAiIGhlaWdodD0iMTgwIiByeD0iMjAiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I5ZTljYSIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxyZWN0IHg9IjMwIiB5PSIzMTgiIHdpZHRoPSIzMTAiIGhlaWdodD0iMTgwIiByeD0iMjAiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I5ZTljYSIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxwYXRoIGQ9Ik0xMDAgMTgwIFExNzAgODUgMjY1IDE1MCBRMjAwIDIxMCAxMDAgMTgwIiBmaWxsPSIjNzhjNjY1Ii8+PHBhdGggZD0iTTExMCAxNzkgMjQ1IDE1MiIgc3Ryb2tlPSIjMzI4MzQ2IiBzdHJva2Utd2lkdGg9IjQiLz4KPGcgZmlsbD0iI2ZmZjNjMiIgc3Ryb2tlPSIjY2FhZTY0IiBzdHJva2Utd2lkdGg9IjIiPjxlbGxpcHNlIGN4PSIxNjQiIGN5PSIxNTIiIHJ4PSIxMCIgcnk9IjEzIi8+PGVsbGlwc2UgY3g9IjE5MiIgY3k9IjE0NyIgcng9IjEwIiByeT0iMTMiLz48ZWxsaXBzZSBjeD0iMjE4IiBjeT0iMTQ0IiByeD0iMTAiIHJ5PSIxMyIvPjwvZz4KPHRleHQgeD0iMTg1IiB5PSIyMjUiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjEuIFRFTFVSPC90ZXh0Pgo8cGF0aCBkPSJNNTMwIDE4NCA3MDAgMTg0IiBzdHJva2U9IiM2YzliNTciIHN0cm9rZS13aWR0aD0iNiIvPgo8ZyBmaWxsPSIjODljODVkIiBzdHJva2U9IiM0OThjMzkiIHN0cm9rZS13aWR0aD0iMyI+PGNpcmNsZSBjeD0iNTUyIiBjeT0iMTYxIiByPSIyMiIvPjxjaXJjbGUgY3g9IjU4NyIgY3k9IjE1NSIgcj0iMjQiLz48Y2lyY2xlIGN4PSI2MjMiIGN5PSIxNTEiIHI9IjI0Ii8+PGNpcmNsZSBjeD0iNjYwIiBjeT0iMTQ1IiByPSIyNiIvPjwvZz4KPGNpcmNsZSBjeD0iNjY5IiBjeT0iMTM3IiByPSI0IiBmaWxsPSIjMTczYjI4Ii8+PHBhdGggZD0iTTY3MiAxNTQgUTY2MiAxNjIgNjUzIDE1MyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTczYjI4IiBzdHJva2Utd2lkdGg9IjMiLz4KPHRleHQgeD0iNjE1IiB5PSIyMjUiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjIuIFVMQVQ8L3RleHQ+CjxwYXRoIGQ9Ik01MzUgMzQ1IDY5NSAzNDUiIHN0cm9rZT0iIzg5NjEzYyIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNjE1IDM0NSA2MTUgMzY1IiBzdHJva2U9IiM4MTZkNDIiIHN0cm9rZS13aWR0aD0iNCIvPgo8cGF0aCBkPSJNNTk2IDM2NSBRNTc1IDQwNSA2MTUgNDQ4IFE2NTYgNDA3IDYzNSAzNjVaIiBmaWxsPSIjYTRiZjY3IiBzdHJva2U9IiM2MzdlMzUiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Ik01OTYgMzg1IDYzMiA0MDggTTU5NCA0MDcgNjE5IDQzMSIgc3Ryb2tlPSIjNmQ4YzNhIiBzdHJva2Utd2lkdGg9IjMiLz4KPHRleHQgeD0iNjE1IiB5PSI0NzgiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjMuIFBVUEE8L3RleHQ+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTE4KSI+CjxnIHN0cm9rZT0iIzc3MzcyMiIgc3Ryb2tlLXdpZHRoPSIzIj48cGF0aCBkPSJNMTgwIDQwNSBDOTEgMzE1IDgyIDQyMCAxNjggNDIxIEMxMDMgNDYzIDE2NiA0ODMgMTgyIDQyOVoiIGZpbGw9IiNmYmIwNGIiLz48cGF0aCBkPSJNMTkwIDQwNSBDMjc5IDMxNSAyODggNDIwIDIwMiA0MjEgQzI2NyA0NjMgMjA0IDQ4MyAxODggNDI5WiIgZmlsbD0iI2ZiYjA0YiIvPjwvZz4KPGVsbGlwc2UgY3g9IjE4NSIgY3k9IjQxMyIgcng9IjciIHJ5PSIzNSIgZmlsbD0iIzU3M2UzMSIvPjxwYXRoIGQ9Ik0xODEgMzgyIDE3MCAzNjkgTTE4OSAzODIgMjAwIDM2OSIgc3Ryb2tlPSIjNTczZTMxIiBzdHJva2Utd2lkdGg9IjMiLz4KPGcgZmlsbD0iIzliNGIzMCI+PGNpcmNsZSBjeD0iMTQyIiBjeT0iMzg3IiByPSIxMCIvPjxjaXJjbGUgY3g9IjIyOCIgY3k9IjM4NyIgcj0iMTAiLz48L2c+CjwvZz4KPHRleHQgeD0iMTg1IiB5PSI0NzgiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjQuIERFV0FTQTwvdGV4dD4KPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzQ4MzYzIiBzdHJva2Utd2lkdGg9IjUiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIj48cGF0aCBkPSJNMzU1IDE2NUg0NDAiLz48cGF0aCBkPSJNNjE1IDI3MVYzMDAiLz48cGF0aCBkPSJNNDQ1IDQwNUgzNTUiLz48cGF0aCBkPSJNMTg1IDMwM1YyNzMiLz48L2c+Cjx0ZXh0IHg9IjQwMCIgeT0iNTM3IiBmb250LXNpemU9IjIwIj5EZXdhc2EgbWVuZ2hhc2lsa2FuIHRlbHVyIHVudHVrIGdlbmVyYXNpIGJlcmlrdXRueWEuPC90ZXh0Pgo8L2c+PC9zdmc+Cg==\" alt=\"Diagram empat tahap: telur di daun, ulat, kepompong, dan kupu-kupu dewasa; panah kembali dari dewasa ke telur.\" style=\"width:100%;height:auto;border-radius:16px\"/><figcaption style=\"font-size:14px;margin-top:8px\">Empat tahap utama. Arah panah menunjukkan urutan, bukan lama waktunya. Ilustrasi asli Science Portal.</figcaption></figure>\n<section style=\"margin:24px 0\"><h2>Empat tahap, satu perjalanan</h2><p><strong>Telur:</strong> induk meletakkan telur pada tumbuhan yang sesuai. <strong>Ulat atau larva:</strong> menetas dari telur, makan, dan tumbuh. Banyak ulat kupu-kupu memakan daun tumbuhan inangnya.</p><p><strong>Kepompong atau pupa:</strong> tubuh berubah menuju bentuk dewasa. Diam di luar tidak berarti tidak ada perubahan di dalam. <strong>Kupu-kupu dewasa:</strong> keluar dari pupa, mengembangkan sayap, lalu dapat terbang setelah siap. Banyak kupu-kupu dewasa minum nektar bunga.</p></section>\n<section style=\"margin:24px 0\"><h2>Mengapa disebut daur hidup?</h2><p>Perubahan bentuk besar ini disebut <strong>metamorfosis</strong>. Kupu-kupu betina dewasa dapat menghasilkan telur sehingga muncul generasi berikutnya. Kupu-kupu dewasa tidak menyusut kembali menjadi telur. Kita juga tidak menetapkan jumlah hari yang sama untuk semua jenis kupu-kupu.</p></section>\n<section style=\"margin:24px 0\"><h2>Catatan kebun Nara</h2><p>Nara membuat enam kartu: telur di daun; ulat baru menetas; ulat tumbuh; pupa terbentuk; kupu-kupu baru keluar; kupu-kupu siap terbang. Semua kartu menceritakan satu perjalanan yang dimulai dari telur. Dua kartu sama-sama menggambarkan ulat, tetapi ulat yang baru menetas datang lebih dahulu daripada ulat yang sudah tumbuh.</p><p><strong>Pikirkan:</strong> Jika Nara melihat pupa yang masih utuh, apakah ia bisa menyimpulkan bahwa kupu-kupu dewasa sudah keluar? Belum. Ia harus mengamati kejadian berikutnya.</p></section>\n<section style=\"margin:24px 0\"><h2>Ayo mengamati dengan ramah</h2><p>Dengan pendamping, amati daun atau bunga dari jarak yang aman. Gambar apa yang benar-benar terlihat, tulis tanggal, lalu beri nama tahap jika kamu mengenalinya. Jangan menyentuh ulat, membuka pupa, atau memindahkan telur. Jika hanya melihat kupu-kupu dewasa, catat itu saja; jangan mengarang tahap yang belum dilihat.</p></section>\n<section style=\"margin:24px 0\"><h2>Tantangan sebelum bermain</h2><p>Ceritakan perbedaan ulat dan kupu-kupu dewasa dengan dua petunjuk: cara bergerak dan makanan yang biasa dicari. Lalu susun enam kartu pengamatan pada game. Pilih berdasarkan sebab dan urutan, bukan posisi kartu karena letaknya diacak. Kesalahan mengurangi skor; bacalah seluruh kartu dahulu.</p></section>\n<section style=\"margin:24px 0\"><h2>Ringkasan</h2><p><strong>Telur → ulat → pupa → dewasa.</strong> Ulat bukan kupu-kupu kecil yang sudah bersayap. Pupa bukan telur, dan tahap dewasa bukan akhir bagi generasi berikutnya.</p></section>\n<p style=\"font-size:14px\">Bacaan pendamping: <a href=\"https://www.floridamuseum.ufl.edu/educators/resource/butterfly-life-cycle/\" target=\"_blank\" rel=\"noopener noreferrer\">Florida Museum: Butterfly Life Cycle</a> dan <a href=\"https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond\" target=\"_blank\" rel=\"noopener noreferrer\">Smithsonian: Butterflies and Beyond</a>. Materi, pertanyaan, dan ilustrasi ditulis khusus untuk Science Portal.</p>",
+    "game_slug": "sd13-detektif-daur-hidup-kupu-kupu",
+    "game_type": "sequence",
+    "kkm_score": 70,
+    "xp_theory": 15,
+    "xp_pass": 35,
+    "xp_perfect": 60,
+    "badge_name": "Detektif Metamorfosis",
+    "created_at": "2026-10-26T12:38:19.521073+00:00",
+    "game_data": {
+      "sequence": [
+        {
+          "id": "egg",
+          "icon": "🥚",
+          "content": "Telur masih utuh di daun"
+        },
+        {
+          "id": "hatch",
+          "icon": "🐛",
+          "content": "Ulat kecil baru menetas"
+        },
+        {
+          "id": "grow",
+          "icon": "🌿",
+          "content": "Ulat makan dan tumbuh"
+        },
+        {
+          "id": "pupa",
+          "icon": "🟤",
+          "content": "Ulat menjadi pupa"
+        },
+        {
+          "id": "emerge",
+          "icon": "🦋",
+          "content": "Kupu-kupu baru keluar; sayap belum siap"
+        },
+        {
+          "id": "fly",
+          "icon": "🌼",
+          "content": "Sayap siap; kupu-kupu terbang ke bunga"
+        }
+      ]
+    },
+    "quiz_data": {
+      "questions": [
+        {
+          "options": [
+            "Kupu-kupu dewasa",
+            "Ulat kecil",
+            "Bunga",
+            "Pupa"
+          ],
+          "question": "Apa yang biasanya keluar saat telur kupu-kupu menetas?",
+          "timeLimit": 75,
+          "explanation": "Telur menetas menjadi larva atau ulat.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Telur",
+            "Biji",
+            "Pupa atau kepompong",
+            "Daun"
+          ],
+          "question": "Tahap utama yang berada di antara ulat dan kupu-kupu dewasa adalah ...",
+          "timeLimit": 75,
+          "explanation": "Ulat berubah menjadi pupa sebelum menjadi dewasa.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Pasti sudah mati",
+            "Pasti kosong",
+            "Sudah kembali menjadi telur",
+            "Perubahan tubuh dapat berlangsung di dalamnya"
+          ],
+          "question": "Pupa tampak diam. Kesimpulan yang tepat adalah ...",
+          "timeLimit": 75,
+          "explanation": "Penampilan diam tidak berarti tidak ada perkembangan.",
+          "correctAnswerIndex": 3
+        },
+        {
+          "options": [
+            "A lalu B",
+            "B lalu A",
+            "Keduanya selalu bersamaan",
+            "Tidak ada hubungan"
+          ],
+          "question": "Kartu A: ulat baru menetas. Kartu B: ulat sudah tumbuh. Urutan yang tepat?",
+          "timeLimit": 75,
+          "explanation": "Menetas terjadi sebelum ulat tumbuh lebih besar.",
+          "correctAnswerIndex": 0
+        },
+        {
+          "options": [
+            "Dewasa berubah langsung menjadi telur",
+            "Sayap berubah menjadi telur",
+            "Betina dewasa dapat menghasilkan telur generasi berikutnya",
+            "Telur dapat terbang"
+          ],
+          "question": "Mengapa gambar daur hidup memiliki panah dari kupu-kupu dewasa ke telur?",
+          "timeLimit": 75,
+          "explanation": "Daur berulang melalui generasi berikutnya.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Membuka pupa agar cepat keluar",
+            "Mengamati dari jauh dan mencatat",
+            "Mengguncang ranting",
+            "Memindahkannya tanpa bantuan"
+          ],
+          "question": "Kamu menemukan pupa di ranting. Tindakan pengamat yang baik?",
+          "timeLimit": 75,
+          "explanation": "Pengamatan tidak perlu merusak atau mengganggu hewan.",
+          "correctAnswerIndex": 1
+        }
+      ]
+    },
+    "is_published": true
+  },
+  {
+    "id": 34,
+    "title": "Laboratorium Air: Terapung atau Tenggelam?",
+    "description": "Baca hasil percobaan, uji dugaan, dan pecahkan laporan perahu mini. Besar atau kecil saja belum menentukan hasil!",
+    "category": "sd_1_3",
+    "topic_order": 12,
+    "theory_content": "<h1>Misteri di Dalam Baskom</h1>\n<p><strong>Untuk SD kelas 1–3 • 20–30 menit.</strong> Pendamping dapat membacakan cerita dan membantu percobaan. Kita belajar dari hasil pengamatan, tanpa rumus.</p>\n<p>Sebuah potongan kayu berada di permukaan air, sementara batu kecil turun ke dasar. Mengapa benda yang lebih besar belum tentu tenggelam? Mari menjadi penyelidik, bukan penebak!</p>\n<section style=\"margin:24px 0\"><h2>Misi belajarmu</h2><ul><li>Membedakan terapung dan tenggelam dari posisi benda.</li><li>Membandingkan dugaan dengan hasil yang diamati.</li><li>Menjelaskan bahwa bahan, bentuk, dan beban dapat memengaruhi hasil.</li></ul></section>\n<figure style=\"margin:24px 0\"><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNTEwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+Cjx0aXRsZSBpZD0idGl0bGUiPlBlbmdhbWF0YW4gdGVyYXB1bmcgZGFuIHRlbmdnZWxhbTwvdGl0bGU+PGRlc2MgaWQ9ImRlc2MiPktheXUgbWVuZ2FwdW5nIGRlbmdhbiBzZWJhZ2lhbiB0dWJ1aCB0ZXJlbmRhbS4gQmF0dSBkaSBkYXNhci4gUGVyYWh1IGJlcm9uZ2dhIHRlcmFwdW5nLiBHYW1iYXIgYnVrYW4gc2thbGEgdWt1cmFuIHNlYmVuYXJueWEuPC9kZXNjPgo8cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUxMCIgcng9IjI0IiBmaWxsPSIjZWZmNmZmIi8+CjxnIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTgzYjYzIj4KPHRleHQgeD0iNDUwIiB5PSI0NyIgZm9udC1zaXplPSIzMCIgZm9udC13ZWlnaHQ9IjcwMCI+QU1BVEkgUE9TSVNJTllBIERJIEFJUjwvdGV4dD4KPGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYWRjOWU1IiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjI1IiB5PSI3OCIgd2lkdGg9IjI3MCIgaGVpZ2h0PSIzNjUiIHJ4PSIxOCIvPjxyZWN0IHg9IjMxNSIgeT0iNzgiIHdpZHRoPSIyNzAiIGhlaWdodD0iMzY1IiByeD0iMTgiLz48cmVjdCB4PSI2MDUiIHk9Ijc4IiB3aWR0aD0iMjcwIiBoZWlnaHQ9IjM2NSIgcng9IjE4Ii8+PC9nPgo8ZyBmaWxsPSIjYjVlNWZhIj48cGF0aCBkPSJNNDggMjI1IFExMDAgMjEwIDE1MCAyMjVUMjcyIDIyNVYzNjJINDhaIi8+PHBhdGggZD0iTTMzOCAyMjUgUTM5MCAyMTAgNDQwIDIyNVQ1NjIgMjI1VjM2MkgzMzhaIi8+PHBhdGggZD0iTTYyOCAyMjUgUTY4MCAyMTAgNzMwIDIyNVQ4NTIgMjI1VjM2Mkg2MjhaIi8+PC9nPgo8ZyBzdHJva2U9IiM0YjkwYmMiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTQ4IDE2N1YzNjJIMjcyVjE2NyIvPjxwYXRoIGQ9Ik0zMzggMTY3VjM2Mkg1NjJWMTY3Ii8+PHBhdGggZD0iTTYyOCAxNjdWMzYySDg1MlYxNjciLz48L2c+CjxyZWN0IHg9Ijk1IiB5PSIyMDEiIHdpZHRoPSIxMzAiIGhlaWdodD0iNDkiIHJ4PSIxMCIgZmlsbD0iI2M4OTA1MiIgc3Ryb2tlPSIjODA1MjJlIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTEwIDIxNEgyMDNNMTIzIDIzM0gyMTEiIHN0cm9rZT0iIzkxNjUzOSIgc3Ryb2tlLXdpZHRoPSIzIi8+CjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsMjApIiBkPSJNNDAyIDM0MCA0MTMgMzEzIDQ0NyAyOTYgNDc5IDMxMiA0OTMgMzQwWiIgZmlsbD0iIzc5ODY5NyIgc3Ryb2tlPSIjNDY1MzYzIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNNDUwIDI1NVYyODNNNDQzIDI3NiA0NTAgMjg1IDQ1NyAyNzYiIHN0cm9rZT0iIzQ4Njg4MyIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik02NTAgMTgxIDY4MyAyNTJINzk3TDgzMCAxODEgODAzIDIyMEg2NzdaIiBmaWxsPSIjYzZkMGRkIiBzdHJva2U9IiM1YjZkODIiIHN0cm9rZS13aWR0aD0iNCIvPjxwYXRoIGQ9Ik02NjAgMTgySDgyMCIgc3Ryb2tlPSIjNWI2ZDgyIiBzdHJva2Utd2lkdGg9IjMiLz4KPHRleHQgeD0iMTYwIiB5PSIxMjIiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPktBWVU8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSIxMjIiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPkJBVFU8L3RleHQ+PHRleHQgeD0iNzQwIiB5PSIxMjIiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPlBFUkFIVTwvdGV4dD4KPHRleHQgeD0iMTYwIiB5PSIzOTgiIGZvbnQtc2l6ZT0iMjUiIGZvbnQtd2VpZ2h0PSI3MDAiPlRFUkFQVU5HPC90ZXh0Pjx0ZXh0IHg9IjQ1MCIgeT0iMzk4IiBmb250LXNpemU9IjI1IiBmb250LXdlaWdodD0iNzAwIj5URU5HR0VMQU08L3RleHQ+PHRleHQgeD0iNzQwIiB5PSIzOTgiIGZvbnQtc2l6ZT0iMjUiIGZvbnQtd2VpZ2h0PSI3MDAiPlRFUkFQVU5HPC90ZXh0Pgo8dGV4dCB4PSI0NTAiIHk9IjQ3NyIgZm9udC1zaXplPSIyMSI+QmFoYW4sIGJlbnR1aywgZGFuIGJlYmFuIGlrdXQgbWVuZW50dWthbiBoYXNpbC48L3RleHQ+CjwvZz48L3N2Zz4K\" alt=\"Kayu terlihat di permukaan air, batu berada di dasar, dan perahu berongga berada di permukaan; hasil contoh pengamatan.\" style=\"width:100%;height:auto;border-radius:16px\"/><figcaption style=\"font-size:14px;margin-top:8px\">Terapung berarti ditopang air di permukaan; sebagian benda boleh terendam. Ilustrasi asli Science Portal.</figcaption></figure>\n<section style=\"margin:24px 0\"><h2>Dua hasil yang dapat kita lihat</h2><p>Benda <strong>terapung</strong> tetap berada di permukaan, meskipun sebagian masuk ke air. Benda <strong>tenggelam</strong> turun ke bawah dan, pada baskom dangkal, sampai ke dasar. Air memberikan dorongan ke atas pada benda. Kita akan mengamati hasilnya, bukan menghitung dorongannya.</p><p>Jangan memakai aturan “semua yang kecil terapung” atau “semua yang besar tenggelam”. Bahan dan bentuk benda juga berpengaruh. Benda yang belum diuji sebaiknya diberi dugaan dahulu, bukan langsung dianggap pasti.</p></section>\n<section style=\"margin:24px 0\"><h2>Perahu yang punya ruang</h2><p>Aluminium dapat dibentuk menjadi perahu berongga dengan tepi terangkat. Bentuk itu membantu perahu memindahkan cukup air sehingga dapat terapung. Jika air masuk atau bebannya terlalu banyak, perahu bisa tenggelam. Jadi, bukan karena logam berubah menjadi kayu!</p><p>Letakkan beban secara merata. Semua beban di satu sisi dapat membuat perahu miring. Ubah satu hal dahulu saat membandingkan percobaan: misalnya bentuk perahu, sambil memakai jumlah bahan dan jenis beban yang sama.</p></section>\n<section style=\"margin:24px 0\"><h2>Baca catatan, jangan menebak</h2><p><strong>Contoh hasil kelompok Raka:</strong> kayu berada di permukaan, batu turun ke dasar, perahu kosong terapung, perahu dengan terlalu banyak beban tenggelam. Ini hasil percobaan kelompok Raka, bukan janji bahwa semua benda dari bahan yang sama selalu memberi hasil persis sama.</p><p>Jika dugaan Raka keliru, ia tidak perlu mengganti catatannya agar terlihat benar. Ilmuwan justru memperbaiki penjelasan berdasarkan bukti.</p></section>\n<section style=\"margin:24px 0\"><h2>Percobaan mini bersama pendamping</h2><p>Gunakan baskom dangkal, sedikit air, potongan kayu besar, batu yang cukup besar agar tidak tertelan, dan perahu aluminium yang dibentuk pendamping. Jangan memakai benda tajam, listrik, atau benda berharga. Tidak ada benda yang dimasukkan ke mulut.</p><ol><li>Tulis dugaan sebelum benda diletakkan.</li><li>Letakkan satu benda perlahan, jangan dilempar atau ditekan.</li><li>Amati setelah benda tenang. Catat hasil sebenarnya.</li><li>Ulangi bila ragu. Bersihkan tumpahan agar lantai tidak licin.</li></ol></section>\n<section style=\"margin:24px 0\"><h2>Video pengamatan pilihan</h2><p>Tonton bersama pendamping: <a href=\"https://www.youtube.com/watch?v=s7bopU_N_fQ\" target=\"_blank\" rel=\"noopener noreferrer\">Science Buddies — How Much Weight Can Boats Float?</a>. Video berbahasa Inggris; fokuslah pada perubahan posisi perahu saat beban ditambahkan. Materi di halaman ini tetap lengkap tanpa menonton video.</p></section>\n<section style=\"margin:24px 0\"><h2>Misi game: lengkapi laporan</h2><p>Ada delapan bagian laporan yang hilang dan beberapa kata pengecoh. Pilih kata berdasarkan konteks kalimat. Bedakan hasil yang terlihat, dugaan sebelum percobaan, bentuk perahu, dan cara menguji. Tidak ada batas waktu game; teliti lebih penting daripada cepat.</p></section>\n<p style=\"font-size:14px\">Bacaan pendamping: <a href=\"https://www.noaa.gov/office-education/outreach-communication/hands-on-science-activities/build-a-boat\" target=\"_blank\" rel=\"noopener noreferrer\">NOAA: Build a Boat</a> dan <a href=\"https://www.acs.org/education/resources/k-8/inquiryinaction/second-grade.html\" target=\"_blank\" rel=\"noopener noreferrer\">ACS: penyelidikan sifat bahan kelas 2</a>. Percobaan disederhanakan untuk kelas awal.</p>",
+    "game_slug": "sd13-laboratorium-terapung-tenggelam",
+    "game_type": "fill_blanks",
+    "kkm_score": 70,
+    "xp_theory": 15,
+    "xp_pass": 35,
+    "xp_perfect": 60,
+    "badge_name": "Penyelidik Perahu Mini",
+    "created_at": "2026-10-26T12:38:19.521073+00:00",
+    "game_data": {
+      "decoys": [
+        "langit",
+        "berlubang",
+        "menumpuk",
+        "berbeda",
+        "menghapus"
+      ],
+      "answers": {
+        "b1": "permukaan",
+        "b2": "dasar",
+        "b3": "dugaan",
+        "b4": "hasil",
+        "b5": "berongga",
+        "b6": "merata",
+        "b7": "sama",
+        "b8": "mengulangi"
+      },
+      "passage": "Laporan Raka: Kayu tetap di [b1] air, sedangkan batu turun ke [b2] baskom. Sebelum mencoba, Raka menulis [b3]. Setelah mencoba, ia mencatat [b4] yang terlihat. Perahu aluminium dibuat [b5], bukan sekadar gumpalan padat. Beban ditaruh secara [b6] agar tidak berat sebelah. Untuk membandingkan dua percobaan, Raka mengubah satu hal dan menjaga hal lain tetap [b7]. Saat ragu, ia [b8] percobaan, bukan mengarang hasil."
+    },
+    "quiz_data": {
+      "questions": [
+        {
+          "options": [
+            "Tenggelam",
+            "Terapung",
+            "Menguap",
+            "Mencair"
+          ],
+          "question": "Sebagian kayu masuk ke air, tetapi kayu tetap di permukaan. Kayu itu ...",
+          "timeLimit": 75,
+          "explanation": "Benda terapung tidak harus seluruhnya berada di atas air.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Ukuran saja belum cukup untuk menebak hasil",
+            "Semua benda kecil terapung",
+            "Semua kayu pasti sama",
+            "Air hanya mendorong benda besar"
+          ],
+          "question": "Batu kecil turun ke dasar. Potongan kayu besar tetap di permukaan. Apa kesimpulan terbaik?",
+          "timeLimit": 75,
+          "explanation": "Bahan dan bentuk juga berpengaruh.",
+          "correctAnswerIndex": 0
+        },
+        {
+          "options": [
+            "Dugaan saja",
+            "Hasil teman",
+            "Tidak menulis apa pun",
+            "Hasil sebenarnya: batu tenggelam"
+          ],
+          "question": "Dugaanmu: batu terapung. Hasilnya: batu tenggelam. Apa yang ditulis?",
+          "timeLimit": 75,
+          "explanation": "Catatan harus mengikuti pengamatan, bukan keinginan.",
+          "correctAnswerIndex": 3
+        },
+        {
+          "options": [
+            "Menambah beban di kiri",
+            "Menyebarkan beban dengan seimbang",
+            "Melubangi perahu",
+            "Menekan perahu ke dasar"
+          ],
+          "question": "Perahu mulai miring karena semua beban ada di kiri. Apa yang dicoba?",
+          "timeLimit": 75,
+          "explanation": "Sebaran beban membantu menjaga keseimbangan.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Warnanya mengilap",
+            "Logamnya berubah menjadi kayu",
+            "Bentuk berongganya membantu memindahkan air",
+            "Semua logam selalu terapung"
+          ],
+          "question": "Perahu aluminium dapat terapung terutama karena ...",
+          "timeLimit": 75,
+          "explanation": "Bentuk dan air yang dipindahkan ikut menentukan hasil.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Letakkan perlahan lalu amati",
+            "Lempar sekuatnya",
+            "Tekan terus ke dasar",
+            "Tutup mata saat mencoba"
+          ],
+          "question": "Cara mengamati benda dalam baskom yang paling tepat?",
+          "timeLimit": 75,
+          "explanation": "Dorongan tangan dapat mengubah pengamatan.",
+          "correctAnswerIndex": 0
+        }
+      ]
+    },
+    "is_published": true
+  },
+  {
+    "id": 35,
+    "title": "Misi Tetes Air: Memilih Bahan yang Tepat",
+    "description": "Bedakan bahan penyerap air, pelapis penahan air, dan benda yang belum diuji. Pilih bahan berdasarkan bukti!",
+    "category": "sd_1_3",
+    "topic_order": 13,
+    "theory_content": "<h1>Tumpahan Air atau Buku Kehujanan?</h1>\n<p><strong>Untuk SD kelas 1–3 • 20–30 menit.</strong> Kelas 1 dapat dibantu membaca. Kelas 2–3 mencoba menjelaskan mengapa pilihan bahan bisa berbeda untuk dua tugas.</p>\n<p>Nina ingin mengelap meja basah. Bimo ingin melindungi buku dari tetesan air. Apakah mereka sebaiknya memakai bahan yang sama? Belum tentu! Bahan yang baik untuk mengelap belum tentu baik sebagai pelindung air.</p>\n<section style=\"margin:24px 0\"><h2>Misi belajarmu</h2><ul><li>Mengenali tanda air masuk ke dalam bahan.</li><li>Memilih penyerap untuk mengelap dan pelapis untuk melindungi.</li><li>Membedakan kesimpulan berdasarkan bukti dari tebakan.</li></ul></section>\n<figure style=\"margin:24px 0\"><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNDkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+Cjx0aXRsZSBpZD0idGl0bGUiPlBlbnllcmFwLCBwZW5haGFuLCBhdGF1IGJlbHVtIGRpdWppPC90aXRsZT48ZGVzYyBpZD0iZGVzYyI+S2FpbiBtZW55ZXJhcCBhaXIga2Ugc2VyYXQuIFBsYXN0aWsgdXR1aCBtZW5haGFuIHRldGVzYW4uIEJhaGFuIEMgcGVybHUgZGl1amkgc2ViZWx1bSBkaXNpbXB1bGthbi48L2Rlc2M+CjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNDkwIiByeD0iMjQiIGZpbGw9IiNmZmY3ZWQiLz4KPGcgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM3MTNlMjQiPgo8dGV4dCB4PSI0NTAiIHk9IjQ4IiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iNzAwIj5QSUxJSCBCQUhBTiBCRVJEQVNBUktBTiBCVUtUSTwvdGV4dD4KPGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZjBkNWI1IiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjI1IiB5PSI4MiIgd2lkdGg9IjI3MCIgaGVpZ2h0PSIzMzAiIHJ4PSIxOCIvPjxyZWN0IHg9IjMxNSIgeT0iODIiIHdpZHRoPSIyNzAiIGhlaWdodD0iMzMwIiByeD0iMTgiLz48cmVjdCB4PSI2MDUiIHk9IjgyIiB3aWR0aD0iMjcwIiBoZWlnaHQ9IjMzMCIgcng9IjE4Ii8+PC9nPgo8dGV4dCB4PSIxNjAiIHk9IjEyOCIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjcwMCI+S0FJTiBLRVJJTkc8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSIxMjgiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPlBMQVNUSUsgVVRVSDwvdGV4dD48dGV4dCB4PSI3NDAiIHk9IjEyOCIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjcwMCI+QkFIQU4gQkFSVTwvdGV4dD4KPHBhdGggZD0iTTcyIDIyMCAyMjUgMTk0IDI1MiAyODAgOTggMzA2WiIgZmlsbD0iI2ZmYzU3NyIgc3Ryb2tlPSIjY2Q5MTQ2IiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTEwMCAyMjMgMjM1IDI3N00xMTggMjEyIDI0OSAyNjJNOTcgMjQzIDIyNiAyOTJNMTMwIDIxMiAxNTggMjk2TTE2MCAyMDcgMTg4IDI5MU0xOTAgMjAwIDIxOSAyODUiIHN0cm9rZT0iI2RjOWQ1MyIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxlbGxpcHNlIGN4PSIxNjIiIGN5PSIyNTAiIHJ4PSI0NiIgcnk9IjI4IiBmaWxsPSIjNjQ5ZWMwIiBmaWxsLW9wYWNpdHk9Ii44Ii8+CjxwYXRoIGQ9Ik0xNjAgMTU1QzE0MCAxODIgMTQzIDE5NyAxNjAgMTk3QzE3OSAxOTcgMTgwIDE3OSAxNjAgMTU1IiBmaWxsPSIjMzhhMWQ4Ii8+CjxwYXRoIGQ9Ik0zNjAgMjI1IDUwOCAxOTkgNTM4IDI4MyAzOTAgMzA5WiIgZmlsbD0iI2Q4ZWZlMSIgc3Ryb2tlPSIjNzdhNThhIiBzdHJva2Utd2lkdGg9IjMiLz4KPGcgZmlsbD0iIzM4YTFkOCIgc3Ryb2tlPSIjMmE3OGFhIiBzdHJva2Utd2lkdGg9IjIiPjxlbGxpcHNlIGN4PSI0MjEiIGN5PSIyNDgiIHJ4PSIxNCIgcnk9IjkiLz48ZWxsaXBzZSBjeD0iNDc0IiBjeT0iMjY4IiByeD0iMTkiIHJ5PSIxMSIvPjxlbGxpcHNlIGN4PSI0NzciIGN5PSIyMjkiIHJ4PSIxMSIgcnk9IjgiLz48L2c+CjxyZWN0IHg9IjY2OCIgeT0iMTg4IiB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjEyMSIgcng9IjE4IiBmaWxsPSIjZTllNWY3IiBzdHJva2U9IiNiNGE1Y2QiIHN0cm9rZS13aWR0aD0iMyIvPjx0ZXh0IHg9Ijc0MCIgeT0iMjczIiBmb250LXNpemU9IjgyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNzk2MjhmIj4/PC90ZXh0Pgo8dGV4dCB4PSIxNjAiIHk9IjM1MyIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCI+TUVOWUVSQVA8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSIzNTMiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiPk1FTkFIQU4gQUlSPC90ZXh0Pjx0ZXh0IHg9Ijc0MCIgeT0iMzUzIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIj5VSkkgREFIVUxVPC90ZXh0Pgo8dGV4dCB4PSIxNjAiIHk9IjM4MyIgZm9udC1zaXplPSIxOSI+QWlyIG1hc3VrIGtlIGJhaGFuLjwvdGV4dD48dGV4dCB4PSI0NTAiIHk9IjM4MyIgZm9udC1zaXplPSIxOSI+VGV0ZXNhbiBkaSBwZXJtdWthYW4uPC90ZXh0Pjx0ZXh0IHg9Ijc0MCIgeT0iMzgzIiBmb250LXNpemU9IjE5Ij5CZWx1bSBhZGEgYnVrdGkuPC90ZXh0Pgo8dGV4dCB4PSI0NTAiIHk9IjQ1MiIgZm9udC1zaXplPSIyMSI+TWVuZ2VsYXAgdHVtcGFoYW4gZGFuIG1lbGluZHVuZ2kgYnVrdSBtZW1lcmx1a2FuIHNpZmF0IGJlcmJlZGEuPC90ZXh0Pgo8L2c+PC9zdmc+Cg==\" alt=\"Tiga panel: air menyebar ke kain; tetesan tetap di atas plastik utuh; bahan baru diberi tanda tanya karena belum diuji.\" style=\"width:100%;height:auto;border-radius:16px\"/><figcaption style=\"font-size:14px;margin-top:8px\">Lihat perubahan bahan dan posisi air. Warna bahan bukan jawaban. Ilustrasi asli Science Portal.</figcaption></figure>\n<section style=\"margin:24px 0\"><h2>Menyerap berbeda dari menahan air</h2><p>Bahan <strong>menyerap</strong> ketika air masuk ke bagian dalamnya. Kain katun, tisu, dan spons kering dapat membantu mengelap tumpahan. Daerah basah dapat meluas atau berubah warna. Air tidak menghilang secara ajaib; sebagian masuk ke bahan.</p><p>Plastik utuh, karet utuh, dan aluminium foil utuh umumnya tidak menyerap air seperti kain. Air dapat tetap berupa tetesan di atasnya. Bahan semacam itu berguna sebagai <strong>pelapis penahan air</strong>. Namun, jika berlubang, air dapat lewat lubang. Itu tidak sama dengan menyerap.</p></section>\n<section style=\"margin:24px 0\"><h2>Tidak semua tugas membutuhkan bahan yang sama</h2><p>Untuk meja basah, Nina memilih kain kering yang sudah terbukti menyerap. Untuk buku, Bimo memakai pelapis plastik utuh yang menahan tetesan. Tisu basah bukan pelindung buku yang baik. Spons yang sudah sangat penuh air juga perlu diperas oleh pendamping sebelum menyerap lebih banyak.</p><p>Nama benda saja kadang belum cukup: dua lembar kertas bisa memiliki lapisan berbeda. Jika ada bahan baru tanpa hasil uji, jawaban ilmiah yang baik adalah <strong>perlu diuji</strong>. Kita tidak menebak sifatnya hanya dari warna atau harganya.</p></section>\n<section style=\"margin:24px 0\"><h2>Uji tetes yang adil</h2><p>Bersama pendamping, siapkan potongan kain katun, tisu, dan plastik utuh pada tiga piring. Gunakan potongan dengan ukuran sebanding, jumlah tetes yang sama, dan waktu pengamatan yang sama.</p><ol><li>Tulis dugaan untuk setiap bahan.</li><li>Beri tiga tetes air pada masing-masing bahan.</li><li>Amati: air menyebar ke bahan atau tetap di permukaan?</li><li>Bandingkan catatan. Jika kurang jelas, ulangi dengan bahan kering.</li></ol><p>Pakai sedikit air dan jauhkan dari listrik. Jangan mencicipi air percobaan. Pendamping membantu menyiapkan bahan; selesai bermain, lap meja dan cuci tangan.</p></section>\n<section style=\"margin:24px 0\"><h2>Baca bukti sebelum memilih</h2><p>Contoh: bahan A menjadi basah sampai bagian belakang setelah diberi tetesan. Bahan B tetap kering di belakang dan air berkumpul di atasnya. Dalam percobaan itu, A adalah calon pengelap, sedangkan B adalah calon pelapis. Kita belum boleh menyimpulkan tentang bahan C yang belum diuji.</p></section>\n<section style=\"margin:24px 0\"><h2>Misi game: tiga stasiun bahan</h2><p>Pilih stasiun terlebih dahulu, lalu cocokkan kartu yang sesuai. Ada 12 kartu dan tiga stasiun: <strong>Menyerap untuk mengelap</strong>, <strong>Menahan sebagai pelapis</strong>, dan <strong>Perlu diuji dahulu</strong>. Beberapa kartu menceritakan hasil pengamatan, bukan menyebut nama bahan. Gunakan petunjuknya; jangan hanya mencari kata yang sama.</p></section>\n<p style=\"font-size:14px\">Bacaan pendamping: <a href=\"https://www.acs.org/education/resources/k-8/inquiryinaction/second-grade/chapter-1/designing-an-absorbency-test.html/1000\" target=\"_blank\" rel=\"noopener noreferrer\">ACS: Designing an Absorbency Test</a> dan <a href=\"https://www.acs.org/content/dam/acsorg/education/k-8/inquiry-in-action/second-grade/g2-l1.3-bkgd.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">ACS: dasar penyerapan air</a>. Cerita, tantangan, dan ilustrasi merupakan karya asli Science Portal.</p>",
+    "game_slug": "sd13-misi-tetes-air-daya-serap",
+    "game_type": "dynamic_match",
+    "kkm_score": 70,
+    "xp_theory": 15,
+    "xp_pass": 35,
+    "xp_perfect": 60,
+    "badge_name": "Ahli Pemilih Bahan",
+    "created_at": "2026-10-26T12:38:19.521073+00:00",
+    "game_data": {
+      "dynamic_match": {
+        "pairs": [
+          {
+            "items": [
+              "Kain katun kering untuk tumpahan meja",
+              "Tisu kering yang airnya menyebar ke serat",
+              "Spons kering yang menampung air di dalamnya",
+              "Bahan A: air masuk dan bagian belakang ikut basah"
+            ],
+            "category": "Menyerap untuk mengelap"
+          },
+          {
+            "items": [
+              "Plastik utuh untuk melindungi sampul buku",
+              "Aluminium foil utuh dengan air tetap di atasnya",
+              "Lembaran karet utuh dengan tetesan di permukaan",
+              "Bahan B: belakang tetap kering, air berkumpul di atas"
+            ],
+            "category": "Menahan sebagai pelapis"
+          },
+          {
+            "items": [
+              "Kertas berlapis baru tanpa catatan percobaan",
+              "Bahan C yang baru dilihat warnanya saja",
+              "Kain berlapis yang belum diberi tetesan air",
+              "Bahan D yang sifatnya belum diketahui"
+            ],
+            "category": "Perlu diuji dahulu"
+          }
+        ]
+      }
+    },
+    "quiz_data": {
+      "questions": [
+        {
+          "options": [
+            "Plastik utuh",
+            "Kain katun kering",
+            "Aluminium foil",
+            "Piring"
+          ],
+          "question": "Air tumpah di meja. Mana yang cocok untuk menyerapnya?",
+          "timeLimit": 75,
+          "explanation": "Kain katun kering dapat menyerap air tumpahan.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Membuat buku lebih berat",
+            "Memakan air",
+            "Menahan air agar tidak langsung mengenai buku",
+            "Mengubah air menjadi udara"
+          ],
+          "question": "Mengapa pelapis plastik utuh cocok melindungi buku dari tetesan?",
+          "timeLimit": 75,
+          "explanation": "Tujuannya menahan air, bukan menyerap ke dalam buku.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Air bisa lewat lubang, belum membuktikan plastik menyerap",
+            "Semua plastik menyerap",
+            "Air selalu naik",
+            "Kain tidak bisa basah"
+          ],
+          "question": "Plastik berlubang melewatkan air. Itu berarti ...",
+          "timeLimit": 75,
+          "explanation": "Air melewati lubang berbeda dengan air masuk ke bahan.",
+          "correctAnswerIndex": 0
+        },
+        {
+          "options": [
+            "Pasti menyerap karena disebut kertas",
+            "Pasti menahan karena warnanya",
+            "Pasti sama dengan semua kertas",
+            "Uji dahulu sebelum menyimpulkan"
+          ],
+          "question": "Ada kertas baru berlapis, tetapi belum pernah diuji. Sikap terbaik?",
+          "timeLimit": 75,
+          "explanation": "Lapisan bahan dapat memengaruhi sifatnya.",
+          "correctAnswerIndex": 3
+        },
+        {
+          "options": [
+            "Warna semua bahan",
+            "Jumlah tetes dan waktu pengamatan",
+            "Nama pemilik bahan",
+            "Harga bahan"
+          ],
+          "question": "Agar uji tetes adil, apa yang perlu dibuat sama?",
+          "timeLimit": 75,
+          "explanation": "Perlakuan yang sama membantu perbandingan.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Hilang tanpa jejak",
+            "Berubah menjadi kain",
+            "Sebagian masuk ke dalam kain",
+            "Tidak bergerak sama sekali"
+          ],
+          "question": "Kain menjadi basah setelah menyentuh tumpahan. Airnya ...",
+          "timeLimit": 75,
+          "explanation": "Itulah penyerapan air.",
+          "correctAnswerIndex": 2
+        }
+      ]
+    },
+    "is_published": true
+  }
+]

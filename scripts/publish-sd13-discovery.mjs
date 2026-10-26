@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { existsSync, writeFileSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 import { createClient } from '@supabase/supabase-js';
 import { modules } from '../content/modules/sd13-discovery-20261026.mjs';
 
@@ -14,6 +15,8 @@ export function validateModules(items = modules) {
     assert.equal(Object.hasOwn(m, 'id'), false, 'Database normally assigns IDs');
     for (const field of ['title', 'description', 'theory_content', 'game_slug', 'game_type', 'badge_name']) assert.ok(m[field]?.length, field);
     assert.match(m.theory_content, /data:image\/svg\+xml;base64,/);
+    assert.doesNotMatch(m.theory_content, /<(?:section|figure|figcaption)\b/i, 'Use the same editor-friendly HTML as existing modules');
+    assert.match(m.theory_content, /IPA/);
     assert.doesNotMatch(m.theory_content, /<script|javascript:|onerror=/i);
     assert.ok(m.kkm_score >= 70 && m.kkm_score <= 100);
     for (const field of ['xp_theory', 'xp_pass', 'xp_perfect']) assert.ok(Number.isInteger(m[field]) && m[field] > 0);
@@ -31,11 +34,15 @@ export function validateModules(items = modules) {
       assert.equal(new Set(m.game_data.sequence.map(i => i.id)).size, 6);
       assert.ok(m.game_data.sequence.every(i => i.content && i.icon));
     } else if (m.game_type === 'fill_blanks') {
-      const blanks = [...m.game_data.passage.matchAll(/\[([^\]]+)\]/g)].map(match => match[1]);
-      assert.deepEqual(blanks, Object.keys(m.game_data.answers));
-      assert.equal(blanks.length, 8);
-      assert.equal(new Set(Object.values(m.game_data.answers)).size, 8);
-      assert.ok(m.game_data.decoys.every(word => !Object.values(m.game_data.answers).includes(word)));
+      const sentences = m.game_data.fill_blanks;
+      assert.equal(sentences.length, 8, 'Must also be readable by the teacher editor');
+      const answers = sentences.map(q => q.answer);
+      assert.equal(new Set(answers).size, 8);
+      for (const q of sentences) {
+        assert.equal([...q.sentence.matchAll(/\[BLANK\]/g)].length, 1);
+        assert.ok(q.answer && Array.isArray(q.options));
+        assert.ok(q.options.every(word => word && !answers.includes(word)));
+      }
     } else if (m.game_type === 'dynamic_match') {
       const pairs = m.game_data.dynamic_match.pairs;
       assert.equal(pairs.length, 3);
@@ -101,4 +108,6 @@ async function run() {
   console.log(JSON.stringify(receipt, null, 2));
 }
 
-run().catch(error => { console.error(error.message); process.exitCode = 1; });
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  run().catch(error => { console.error(error.message); process.exitCode = 1; });
+}

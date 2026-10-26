@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-26T14:55:30.229Z",
+  "countBefore": 35,
+  "changedFields": [
+    "title",
+    "description",
+    "theory_content",
+    "quiz_data",
+    "game_data"
+  ],
+  "modules": [
+    {
+      "id": 33,
+      "title": "Daur Hidup Kupu-Kupu",
+      "beforeHash": "81f602b492a2b4adb6a4668c2d8d424c4575df25d47c79fe7b901dc499f6785b",
+      "afterHash": "f6db4ee6260770aff21e3c51b05028cacda4295a96fadf09772d9897255d5636",
+      "url": "https://lcs-science-portal.vercel.app/dashboard/module/33"
+    },
+    {
+      "id": 34,
+      "title": "Benda Terapung dan Tenggelam",
+      "beforeHash": "2e64e087f774f96e994c1b871264c43902964be202c996efb79bd1ebea359aec",
+      "afterHash": "f2ed245d1d3aac7576c4f106bfb57df398b1ab3f273b4fb7d87a65324c8ca6b2",
+      "url": "https://lcs-science-portal.vercel.app/dashboard/module/34"
+    },
+    {
+      "id": 35,
+      "title": "Bahan yang Menyerap Air",
+      "beforeHash": "5a6a539b53584a0cce5e37425f011a307d9ccfb5edb4677b889cd40745f7ef25",
+      "afterHash": "50ed9702611571eb9a827486876d56ee6bcca7320718b936c0b56e787c8a174d",
+      "url": "https://lcs-science-portal.vercel.app/dashboard/module/35"
+    }
+  ],
+  "verified": true,
+  "verifiedAt": "2026-10-26T14:55:32.741Z",
+  "otherModulesUnchanged": 32
+}
