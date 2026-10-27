@@ -1,0 +1,255 @@
+[
+  {
+    "id": 33,
+    "title": "Daur Hidup Kupu-Kupu",
+    "description": "Ayo kenali perubahan telur, ulat, kepompong, dan kupu-kupu, lalu susun urutan pertumbuhannya!",
+    "category": "sd_1_3",
+    "topic_order": 11,
+    "theory_content": "<h1>Daur&nbsp;Hidup&nbsp;Kupu-Kupu&nbsp;🐛🦋</h1><p>Pernah&nbsp;melihat&nbsp;ulat&nbsp;di&nbsp;daun?&nbsp;Ulat&nbsp;kupu-kupu&nbsp;akan&nbsp;berubah&nbsp;menjadi&nbsp;kupu-kupu&nbsp;dewasa.&nbsp;Perubahan&nbsp;bentuk&nbsp;ini&nbsp;disebut&nbsp;<strong>metamorfosis</strong>.</p><p><strong>Tujuan:</strong>&nbsp;mengenali&nbsp;empat&nbsp;tahap&nbsp;hidup&nbsp;dan&nbsp;mengurutkan&nbsp;perubahan&nbsp;yang&nbsp;terjadi.</p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTYwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+Cjx0aXRsZSBpZD0idGl0bGUiPkRhdXIgaGlkdXAga3VwdS1rdXB1PC90aXRsZT48ZGVzYyBpZD0iZGVzYyI+VGVsdXIsIHVsYXQsIHB1cGEsIGRld2FzYS4gUGFuYWggZGFyaSBkZXdhc2Ega2VtYmFsaSBrZSB0ZWx1ciBtZW51bmp1a2thbiBnZW5lcmFzaSBiZXJpa3V0bnlhLjwvZGVzYz4KPGRlZnM+PG1hcmtlciBpZD0iYXJyb3ciIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjYiIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAgMCA4IDQgMCA4IiBmaWxsPSIjMzQ4MzYzIi8+PC9tYXJrZXI+PC9kZWZzPgo8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjU2MCIgcng9IjI0IiBmaWxsPSIjZjBmZGY0Ii8+CjxnIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmaWxsPSIjMTYzYjJhIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KPHRleHQgeD0iNDAwIiB5PSI0OCIgZm9udC1zaXplPSIzMCIgZm9udC13ZWlnaHQ9IjcwMCI+U0FUVSBIRVdBTiwgRU1QQVQgVEFIQVA8L3RleHQ+CjxyZWN0IHg9IjMwIiB5PSI3OCIgd2lkdGg9IjMxMCIgaGVpZ2h0PSIxODAiIHJ4PSIyMCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYjllOWNhIiBzdHJva2Utd2lkdGg9IjIiLz4KPHJlY3QgeD0iNDYwIiB5PSI3OCIgd2lkdGg9IjMxMCIgaGVpZ2h0PSIxODAiIHJ4PSIyMCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYjllOWNhIiBzdHJva2Utd2lkdGg9IjIiLz4KPHJlY3QgeD0iNDYwIiB5PSIzMTgiIHdpZHRoPSIzMTAiIGhlaWdodD0iMTgwIiByeD0iMjAiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I5ZTljYSIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxyZWN0IHg9IjMwIiB5PSIzMTgiIHdpZHRoPSIzMTAiIGhlaWdodD0iMTgwIiByeD0iMjAiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I5ZTljYSIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxwYXRoIGQ9Ik0xMDAgMTgwIFExNzAgODUgMjY1IDE1MCBRMjAwIDIxMCAxMDAgMTgwIiBmaWxsPSIjNzhjNjY1Ii8+PHBhdGggZD0iTTExMCAxNzkgMjQ1IDE1MiIgc3Ryb2tlPSIjMzI4MzQ2IiBzdHJva2Utd2lkdGg9IjQiLz4KPGcgZmlsbD0iI2ZmZjNjMiIgc3Ryb2tlPSIjY2FhZTY0IiBzdHJva2Utd2lkdGg9IjIiPjxlbGxpcHNlIGN4PSIxNjQiIGN5PSIxNTIiIHJ4PSIxMCIgcnk9IjEzIi8+PGVsbGlwc2UgY3g9IjE5MiIgY3k9IjE0NyIgcng9IjEwIiByeT0iMTMiLz48ZWxsaXBzZSBjeD0iMjE4IiBjeT0iMTQ0IiByeD0iMTAiIHJ5PSIxMyIvPjwvZz4KPHRleHQgeD0iMTg1IiB5PSIyMjUiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjEuIFRFTFVSPC90ZXh0Pgo8cGF0aCBkPSJNNTMwIDE4NCA3MDAgMTg0IiBzdHJva2U9IiM2YzliNTciIHN0cm9rZS13aWR0aD0iNiIvPgo8ZyBmaWxsPSIjODljODVkIiBzdHJva2U9IiM0OThjMzkiIHN0cm9rZS13aWR0aD0iMyI+PGNpcmNsZSBjeD0iNTUyIiBjeT0iMTYxIiByPSIyMiIvPjxjaXJjbGUgY3g9IjU4NyIgY3k9IjE1NSIgcj0iMjQiLz48Y2lyY2xlIGN4PSI2MjMiIGN5PSIxNTEiIHI9IjI0Ii8+PGNpcmNsZSBjeD0iNjYwIiBjeT0iMTQ1IiByPSIyNiIvPjwvZz4KPGNpcmNsZSBjeD0iNjY5IiBjeT0iMTM3IiByPSI0IiBmaWxsPSIjMTczYjI4Ii8+PHBhdGggZD0iTTY3MiAxNTQgUTY2MiAxNjIgNjUzIDE1MyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTczYjI4IiBzdHJva2Utd2lkdGg9IjMiLz4KPHRleHQgeD0iNjE1IiB5PSIyMjUiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjIuIFVMQVQ8L3RleHQ+CjxwYXRoIGQ9Ik01MzUgMzQ1IDY5NSAzNDUiIHN0cm9rZT0iIzg5NjEzYyIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNjE1IDM0NSA2MTUgMzY1IiBzdHJva2U9IiM4MTZkNDIiIHN0cm9rZS13aWR0aD0iNCIvPgo8cGF0aCBkPSJNNTk2IDM2NSBRNTc1IDQwNSA2MTUgNDQ4IFE2NTYgNDA3IDYzNSAzNjVaIiBmaWxsPSIjYTRiZjY3IiBzdHJva2U9IiM2MzdlMzUiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Ik01OTYgMzg1IDYzMiA0MDggTTU5NCA0MDcgNjE5IDQzMSIgc3Ryb2tlPSIjNmQ4YzNhIiBzdHJva2Utd2lkdGg9IjMiLz4KPHRleHQgeD0iNjE1IiB5PSI0NzgiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjMuIFBVUEE8L3RleHQ+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTE4KSI+CjxnIHN0cm9rZT0iIzc3MzcyMiIgc3Ryb2tlLXdpZHRoPSIzIj48cGF0aCBkPSJNMTgwIDQwNSBDOTEgMzE1IDgyIDQyMCAxNjggNDIxIEMxMDMgNDYzIDE2NiA0ODMgMTgyIDQyOVoiIGZpbGw9IiNmYmIwNGIiLz48cGF0aCBkPSJNMTkwIDQwNSBDMjc5IDMxNSAyODggNDIwIDIwMiA0MjEgQzI2NyA0NjMgMjA0IDQ4MyAxODggNDI5WiIgZmlsbD0iI2ZiYjA0YiIvPjwvZz4KPGVsbGlwc2UgY3g9IjE4NSIgY3k9IjQxMyIgcng9IjciIHJ5PSIzNSIgZmlsbD0iIzU3M2UzMSIvPjxwYXRoIGQ9Ik0xODEgMzgyIDE3MCAzNjkgTTE4OSAzODIgMjAwIDM2OSIgc3Ryb2tlPSIjNTczZTMxIiBzdHJva2Utd2lkdGg9IjMiLz4KPGcgZmlsbD0iIzliNGIzMCI+PGNpcmNsZSBjeD0iMTQyIiBjeT0iMzg3IiByPSIxMCIvPjxjaXJjbGUgY3g9IjIyOCIgY3k9IjM4NyIgcj0iMTAiLz48L2c+CjwvZz4KPHRleHQgeD0iMTg1IiB5PSI0NzgiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPjQuIERFV0FTQTwvdGV4dD4KPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzQ4MzYzIiBzdHJva2Utd2lkdGg9IjUiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIj48cGF0aCBkPSJNMzU1IDE2NUg0NDAiLz48cGF0aCBkPSJNNjE1IDI3MVYzMDAiLz48cGF0aCBkPSJNNDQ1IDQwNUgzNTUiLz48cGF0aCBkPSJNMTg1IDMwM1YyNzMiLz48L2c+Cjx0ZXh0IHg9IjQwMCIgeT0iNTM3IiBmb250LXNpemU9IjIwIj5EZXdhc2EgbWVuZ2hhc2lsa2FuIHRlbHVyIHVudHVrIGdlbmVyYXNpIGJlcmlrdXRueWEuPC90ZXh0Pgo8L2c+PC9zdmc+Cg==\" alt=\"Urutan telur, ulat, kepompong, dan kupu-kupu dewasa. Dewasa menghasilkan telur untuk generasi berikutnya.\" width=\"720\"></p><p><em>Ikuti&nbsp;arah&nbsp;panah&nbsp;untuk&nbsp;melihat&nbsp;urutannya.</em></p><h3>1.&nbsp;Telur&nbsp;di&nbsp;Daun&nbsp;🥚</h3><p>Kupu-kupu&nbsp;betina&nbsp;meletakkan&nbsp;telur&nbsp;pada&nbsp;tumbuhan&nbsp;yang&nbsp;sesuai.&nbsp;Dari&nbsp;telur,&nbsp;menetas&nbsp;ulat&nbsp;kecil.</p><h3>2.&nbsp;Ulat&nbsp;yang&nbsp;Tumbuh&nbsp;🐛</h3><p>Ulat&nbsp;disebut&nbsp;juga&nbsp;<strong>larva</strong>.&nbsp;Ulat&nbsp;makan&nbsp;dan&nbsp;tumbuh&nbsp;semakin&nbsp;besar.&nbsp;Banyak&nbsp;ulat&nbsp;kupu-kupu&nbsp;memakan&nbsp;daun.</p><h3>3.&nbsp;Kepompong&nbsp;atau&nbsp;Pupa&nbsp;🌿</h3><p>Ulat&nbsp;berubah&nbsp;menjadi&nbsp;<strong>pupa</strong>.&nbsp;Dari&nbsp;luar&nbsp;tampak&nbsp;diam,&nbsp;tetapi&nbsp;tubuhnya&nbsp;sedang&nbsp;berubah.&nbsp;Jangan&nbsp;membuka&nbsp;atau&nbsp;mengguncang&nbsp;pupa.</p><h3>4.&nbsp;Kupu-Kupu&nbsp;Dewasa&nbsp;🦋</h3><p>Kupu-kupu&nbsp;keluar&nbsp;dari&nbsp;pupa.&nbsp;Setelah&nbsp;sayapnya&nbsp;siap,&nbsp;ia&nbsp;dapat&nbsp;terbang.&nbsp;Banyak&nbsp;kupu-kupu&nbsp;minum&nbsp;nektar&nbsp;bunga.&nbsp;Betina&nbsp;dewasa&nbsp;dapat&nbsp;menghasilkan&nbsp;telur&nbsp;baru,&nbsp;sehingga&nbsp;daur&nbsp;hidup&nbsp;berulang.</p><a href=\"https://www.youtube.com/embed/RakEW82veFg\">https://www.youtube.com/embed/RakEW82veFg</a><p></p>",
+    "game_slug": "sd13-detektif-daur-hidup-kupu-kupu",
+    "game_type": "sequence",
+    "kkm_score": 70,
+    "xp_theory": 15,
+    "xp_pass": 35,
+    "xp_perfect": 60,
+    "badge_name": "Detektif Metamorfosis",
+    "created_at": "2026-10-26T12:38:19.521073+00:00",
+    "game_data": {
+      "sequence": [
+        {
+          "id": "egg",
+          "icon": "🥚",
+          "content": "Telur utuh di daun"
+        },
+        {
+          "id": "hatch",
+          "icon": "🐛",
+          "content": "Ulat kecil menetas"
+        },
+        {
+          "id": "grow",
+          "icon": "🌿",
+          "content": "Ulat makan dan tumbuh"
+        },
+        {
+          "id": "pupa",
+          "icon": "🟤",
+          "content": "Ulat menjadi pupa"
+        },
+        {
+          "id": "emerge",
+          "icon": "🦋",
+          "content": "Kupu-kupu keluar dari pupa"
+        },
+        {
+          "id": "fly",
+          "icon": "🌼",
+          "content": "Sayap siap untuk terbang"
+        }
+      ]
+    },
+    "quiz_data": {
+      "questions": [
+        {
+          "options": [
+            "Kupu-kupu dewasa",
+            "Ulat kecil",
+            "Bunga",
+            "Pupa"
+          ],
+          "question": "Apa yang keluar saat telur kupu-kupu menetas?",
+          "timeLimit": 75,
+          "explanation": "Telur menetas menjadi ulat kecil.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Telur",
+            "Biji",
+            "Pupa",
+            "Daun"
+          ],
+          "question": "Setelah ulat, tahap berikutnya adalah ...",
+          "timeLimit": 75,
+          "explanation": "Ulat menjadi pupa sebelum menjadi kupu-kupu dewasa.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Tubuh berubah",
+            "Sayap menjadi daun",
+            "Ulat bertelur",
+            "Tubuh menjadi batu"
+          ],
+          "question": "Pupa tampak diam. Apa yang terjadi di dalamnya?",
+          "timeLimit": 75,
+          "explanation": "Tubuh berkembang menjadi bentuk dewasa di dalam pupa.",
+          "correctAnswerIndex": 0
+        },
+        {
+          "options": [
+            "Ulat besar → telur menetas",
+            "Terbang → keluar dari pupa",
+            "Pupa → ulat menetas",
+            "Ulat menetas → ulat tumbuh"
+          ],
+          "question": "Mana urutan yang benar?",
+          "timeLimit": 75,
+          "explanation": "Ulat menetas dahulu, lalu makan dan tumbuh.",
+          "correctAnswerIndex": 3
+        },
+        {
+          "options": [
+            "Sayap berubah menjadi telur",
+            "Pupa berubah menjadi daun",
+            "Kupu-kupu betina bertelur",
+            "Telur kembali menjadi ulat besar"
+          ],
+          "question": "Mengapa daur hidup bisa berulang?",
+          "timeLimit": 75,
+          "explanation": "Telur yang dihasilkan betina memulai generasi berikutnya.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Membukanya",
+            "Mengamati tanpa menyentuh",
+            "Mengguncang ranting",
+            "Menariknya dari ranting"
+          ],
+          "question": "Ada pupa di ranting. Apa yang sebaiknya kamu lakukan?",
+          "timeLimit": 75,
+          "explanation": "Amati dan catat tanpa mengganggu pertumbuhannya.",
+          "correctAnswerIndex": 1
+        }
+      ]
+    },
+    "is_published": true
+  },
+  {
+    "id": 35,
+    "title": "Bahan yang Menyerap Air",
+    "description": "Pilih bahan untuk mengelap tumpahan atau melindungi buku. Gunakan hasil pengamatanmu!",
+    "category": "sd_1_3",
+    "topic_order": 13,
+    "theory_content": "<h1>Bahan&nbsp;yang&nbsp;Menyerap&nbsp;Air&nbsp;🧽💧</h1><p>Nina&nbsp;ingin&nbsp;mengelap&nbsp;meja&nbsp;basah.&nbsp;Bimo&nbsp;ingin&nbsp;melindungi&nbsp;buku&nbsp;dari&nbsp;tetesan&nbsp;air.&nbsp;Apakah&nbsp;mereka&nbsp;memerlukan&nbsp;bahan&nbsp;yang&nbsp;sama?</p><p><strong>Tujuan:</strong>&nbsp;mengenali&nbsp;penyerapan&nbsp;air&nbsp;dan&nbsp;memilih&nbsp;bahan&nbsp;sesuai&nbsp;kegunaannya.</p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNDkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+Cjx0aXRsZSBpZD0idGl0bGUiPlBlbnllcmFwLCBwZW5haGFuLCBhdGF1IGJlbHVtIGRpdWppPC90aXRsZT48ZGVzYyBpZD0iZGVzYyI+S2FpbiBtZW55ZXJhcCBhaXIga2Ugc2VyYXQuIFBsYXN0aWsgdXR1aCBtZW5haGFuIHRldGVzYW4uIEJhaGFuIEMgcGVybHUgZGl1amkgc2ViZWx1bSBkaXNpbXB1bGthbi48L2Rlc2M+CjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNDkwIiByeD0iMjQiIGZpbGw9IiNmZmY3ZWQiLz4KPGcgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM3MTNlMjQiPgo8dGV4dCB4PSI0NTAiIHk9IjQ4IiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iNzAwIj5QSUxJSCBCQUhBTiBCRVJEQVNBUktBTiBCVUtUSTwvdGV4dD4KPGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZjBkNWI1IiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjI1IiB5PSI4MiIgd2lkdGg9IjI3MCIgaGVpZ2h0PSIzMzAiIHJ4PSIxOCIvPjxyZWN0IHg9IjMxNSIgeT0iODIiIHdpZHRoPSIyNzAiIGhlaWdodD0iMzMwIiByeD0iMTgiLz48cmVjdCB4PSI2MDUiIHk9IjgyIiB3aWR0aD0iMjcwIiBoZWlnaHQ9IjMzMCIgcng9IjE4Ii8+PC9nPgo8dGV4dCB4PSIxNjAiIHk9IjEyOCIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjcwMCI+S0FJTiBLRVJJTkc8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSIxMjgiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPlBMQVNUSUsgVVRVSDwvdGV4dD48dGV4dCB4PSI3NDAiIHk9IjEyOCIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjcwMCI+QkFIQU4gQkFSVTwvdGV4dD4KPHBhdGggZD0iTTcyIDIyMCAyMjUgMTk0IDI1MiAyODAgOTggMzA2WiIgZmlsbD0iI2ZmYzU3NyIgc3Ryb2tlPSIjY2Q5MTQ2IiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTEwMCAyMjMgMjM1IDI3N00xMTggMjEyIDI0OSAyNjJNOTcgMjQzIDIyNiAyOTJNMTMwIDIxMiAxNTggMjk2TTE2MCAyMDcgMTg4IDI5MU0xOTAgMjAwIDIxOSAyODUiIHN0cm9rZT0iI2RjOWQ1MyIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxlbGxpcHNlIGN4PSIxNjIiIGN5PSIyNTAiIHJ4PSI0NiIgcnk9IjI4IiBmaWxsPSIjNjQ5ZWMwIiBmaWxsLW9wYWNpdHk9Ii44Ii8+CjxwYXRoIGQ9Ik0xNjAgMTU1QzE0MCAxODIgMTQzIDE5NyAxNjAgMTk3QzE3OSAxOTcgMTgwIDE3OSAxNjAgMTU1IiBmaWxsPSIjMzhhMWQ4Ii8+CjxwYXRoIGQ9Ik0zNjAgMjI1IDUwOCAxOTkgNTM4IDI4MyAzOTAgMzA5WiIgZmlsbD0iI2Q4ZWZlMSIgc3Ryb2tlPSIjNzdhNThhIiBzdHJva2Utd2lkdGg9IjMiLz4KPGcgZmlsbD0iIzM4YTFkOCIgc3Ryb2tlPSIjMmE3OGFhIiBzdHJva2Utd2lkdGg9IjIiPjxlbGxpcHNlIGN4PSI0MjEiIGN5PSIyNDgiIHJ4PSIxNCIgcnk9IjkiLz48ZWxsaXBzZSBjeD0iNDc0IiBjeT0iMjY4IiByeD0iMTkiIHJ5PSIxMSIvPjxlbGxpcHNlIGN4PSI0NzciIGN5PSIyMjkiIHJ4PSIxMSIgcnk9IjgiLz48L2c+CjxyZWN0IHg9IjY2OCIgeT0iMTg4IiB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjEyMSIgcng9IjE4IiBmaWxsPSIjZTllNWY3IiBzdHJva2U9IiNiNGE1Y2QiIHN0cm9rZS13aWR0aD0iMyIvPjx0ZXh0IHg9Ijc0MCIgeT0iMjczIiBmb250LXNpemU9IjgyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNzk2MjhmIj4/PC90ZXh0Pgo8dGV4dCB4PSIxNjAiIHk9IjM1MyIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCI+TUVOWUVSQVA8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSIzNTMiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiPk1FTkFIQU4gQUlSPC90ZXh0Pjx0ZXh0IHg9Ijc0MCIgeT0iMzUzIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIj5VSkkgREFIVUxVPC90ZXh0Pgo8dGV4dCB4PSIxNjAiIHk9IjM4MyIgZm9udC1zaXplPSIxOSI+QWlyIG1hc3VrIGtlIGJhaGFuLjwvdGV4dD48dGV4dCB4PSI0NTAiIHk9IjM4MyIgZm9udC1zaXplPSIxOSI+VGV0ZXNhbiBkaSBwZXJtdWthYW4uPC90ZXh0Pjx0ZXh0IHg9Ijc0MCIgeT0iMzgzIiBmb250LXNpemU9IjE5Ij5CZWx1bSBhZGEgYnVrdGkuPC90ZXh0Pgo8dGV4dCB4PSI0NTAiIHk9IjQ1MiIgZm9udC1zaXplPSIyMSI+TWVuZ2VsYXAgdHVtcGFoYW4gZGFuIG1lbGluZHVuZ2kgYnVrdSBtZW1lcmx1a2FuIHNpZmF0IGJlcmJlZGEuPC90ZXh0Pgo8L2c+PC9zdmc+Cg==\" alt=\"Air masuk ke kain, tetesan tertahan di plastik utuh, dan bahan baru perlu diuji dahulu.\" width=\"720\"></p><h3>1.&nbsp;Bahan&nbsp;Penyerap&nbsp;🧽</h3><p><strong>Menyerap</strong>&nbsp;berarti&nbsp;air&nbsp;masuk&nbsp;ke&nbsp;dalam&nbsp;bahan.&nbsp;Kain&nbsp;katun&nbsp;kering,&nbsp;tisu,&nbsp;dan&nbsp;spons&nbsp;dapat&nbsp;menyerap&nbsp;tumpahan.&nbsp;Kain&nbsp;menjadi&nbsp;basah&nbsp;karena&nbsp;air&nbsp;masuk,&nbsp;bukan&nbsp;karena&nbsp;air&nbsp;menghilang.</p><h3>2.&nbsp;Bahan&nbsp;Penahan&nbsp;Air&nbsp;☔</h3><p>Plastik&nbsp;utuh,&nbsp;karet&nbsp;utuh,&nbsp;dan&nbsp;aluminium&nbsp;foil&nbsp;tidak&nbsp;menyerap&nbsp;seperti&nbsp;kain.&nbsp;Tetesan&nbsp;dapat&nbsp;tetap&nbsp;berada&nbsp;di&nbsp;atasnya.&nbsp;Plastik&nbsp;utuh&nbsp;dapat&nbsp;melindungi&nbsp;buku&nbsp;dari&nbsp;tetesan.</p><p>Jika&nbsp;plastik&nbsp;berlubang,&nbsp;air&nbsp;bisa&nbsp;lewat&nbsp;lubang.&nbsp;Itu&nbsp;berbeda&nbsp;dari&nbsp;menyerap.</p><h3>3.&nbsp;Pilih&nbsp;Sesuai&nbsp;Kegunaan&nbsp;🔎</h3><ul><li><strong>Meja&nbsp;basah:</strong>&nbsp;pilih&nbsp;kain&nbsp;kering&nbsp;yang&nbsp;menyerap.</li><li><strong>Pelindung&nbsp;buku:</strong>&nbsp;pilih&nbsp;plastik&nbsp;utuh&nbsp;yang&nbsp;menahan&nbsp;air.</li><li><strong>Bahan&nbsp;baru:</strong>&nbsp;uji&nbsp;dahulu.&nbsp;Warna&nbsp;tidak&nbsp;menunjukkan&nbsp;daya&nbsp;serap.</li></ul><p>Kertas&nbsp;atau&nbsp;kain&nbsp;yang&nbsp;diberi&nbsp;lapisan&nbsp;bisa&nbsp;memiliki&nbsp;sifat&nbsp;berbeda.&nbsp;Jangan&nbsp;menebak&nbsp;dari&nbsp;namanya&nbsp;saja.</p>",
+    "game_slug": "sd13-misi-tetes-air-daya-serap",
+    "game_type": "dynamic_match",
+    "kkm_score": 70,
+    "xp_theory": 15,
+    "xp_pass": 35,
+    "xp_perfect": 60,
+    "badge_name": "Ahli Pemilih Bahan",
+    "created_at": "2026-10-26T12:38:19.521073+00:00",
+    "game_data": {
+      "dynamic_match": {
+        "pairs": [
+          {
+            "items": [
+              "Kain katun kering",
+              "Tisu kering",
+              "Spons kering",
+              "Bahan A: air masuk ke dalamnya"
+            ],
+            "category": "Menyerap air"
+          },
+          {
+            "items": [
+              "Plastik utuh",
+              "Aluminium foil utuh",
+              "Karet utuh",
+              "Bahan B: air tertahan, belakang kering"
+            ],
+            "category": "Menahan air"
+          },
+          {
+            "items": [
+              "Kertas berlapis yang belum dicoba",
+              "Bahan C: hanya warnanya diketahui",
+              "Kain berlapis yang belum dicoba",
+              "Bahan D: belum ada hasil pengamatan"
+            ],
+            "category": "Perlu diuji"
+          }
+        ]
+      }
+    },
+    "quiz_data": {
+      "questions": [
+        {
+          "options": [
+            "Plastik utuh",
+            "Kain katun kering",
+            "Aluminium foil",
+            "Piring"
+          ],
+          "question": "Air tumpah di meja. Pilih bahan untuk mengelapnya.",
+          "timeLimit": 75,
+          "explanation": "Kain katun kering menyerap air tumpahan.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Membuat buku berat",
+            "Mengubah air menjadi es",
+            "Menahan air",
+            "Menyerap seperti tisu"
+          ],
+          "question": "Mengapa plastik utuh cocok melindungi buku dari tetesan?",
+          "timeLimit": 75,
+          "explanation": "Plastik menahan tetesan agar tidak langsung mengenai buku.",
+          "correctAnswerIndex": 2
+        },
+        {
+          "options": [
+            "Lewat lubang, bukan diserap",
+            "Diserap semua plastik",
+            "Berubah menjadi plastik",
+            "Berhenti bergerak"
+          ],
+          "question": "Air lewat lubang plastik. Air itu ...",
+          "timeLimit": 75,
+          "explanation": "Melewati lubang berbeda dari masuk ke bahan penyerap.",
+          "correctAnswerIndex": 0
+        },
+        {
+          "options": [
+            "Anggap sama dengan tisu",
+            "Tebak dari warna",
+            "Tebak dari harga",
+            "Uji dengan tetesan air"
+          ],
+          "question": "Kertas berlapis baru belum diuji. Apa yang kamu lakukan?",
+          "timeLimit": 75,
+          "explanation": "Pengujian menunjukkan pengaruh lapisan pada bahan.",
+          "correctAnswerIndex": 3
+        },
+        {
+          "options": [
+            "Warna bahan",
+            "Jumlah tetes dan waktu",
+            "Nama bahan",
+            "Harga bahan"
+          ],
+          "question": "Saat membandingkan bahan, apa yang dibuat sama?",
+          "timeLimit": 75,
+          "explanation": "Jumlah tetes dan waktu yang sama membuat perbandingan lebih adil.",
+          "correctAnswerIndex": 1
+        },
+        {
+          "options": [
+            "Hilang begitu saja",
+            "Berubah menjadi kain",
+            "Masuk ke dalam kain",
+            "Menjadi batu"
+          ],
+          "question": "Kain menjadi basah saat mengelap. Ke mana sebagian air pergi?",
+          "timeLimit": 75,
+          "explanation": "Air masuk ke kain melalui penyerapan.",
+          "correctAnswerIndex": 2
+        }
+      ]
+    },
+    "is_published": true
+  }
+]

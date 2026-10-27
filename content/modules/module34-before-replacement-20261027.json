@@ -1,0 +1,147 @@
+{
+  "id": 34,
+  "title": "Benda Terapung dan Tenggelam",
+  "description": "Amati benda di air, bandingkan hasil percobaan, dan lengkapi catatan perahu mini!",
+  "category": "sd_1_3",
+  "topic_order": 12,
+  "theory_content": "<h1>Benda Terapung dan Tenggelam 🪵💧</h1>\n<p><em>IPA • SD kelas 1–3. Mintalah bantuan guru atau orang tua jika perlu dibacakan.</em></p>\n<p>Raka meletakkan kayu dan batu ke dalam baskom. Kayu tetap di permukaan, sedangkan batu turun. Mengapa hasilnya berbeda?</p>\n<p><strong>Tujuan:</strong> membedakan terapung dan tenggelam serta mencatat hasil percobaan.</p>\n<p><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNTEwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+Cjx0aXRsZSBpZD0idGl0bGUiPlBlbmdhbWF0YW4gdGVyYXB1bmcgZGFuIHRlbmdnZWxhbTwvdGl0bGU+PGRlc2MgaWQ9ImRlc2MiPktheXUgbWVuZ2FwdW5nIGRlbmdhbiBzZWJhZ2lhbiB0dWJ1aCB0ZXJlbmRhbS4gQmF0dSBkaSBkYXNhci4gUGVyYWh1IGJlcm9uZ2dhIHRlcmFwdW5nLiBHYW1iYXIgYnVrYW4gc2thbGEgdWt1cmFuIHNlYmVuYXJueWEuPC9kZXNjPgo8cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUxMCIgcng9IjI0IiBmaWxsPSIjZWZmNmZmIi8+CjxnIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTgzYjYzIj4KPHRleHQgeD0iNDUwIiB5PSI0NyIgZm9udC1zaXplPSIzMCIgZm9udC13ZWlnaHQ9IjcwMCI+QU1BVEkgUE9TSVNJTllBIERJIEFJUjwvdGV4dD4KPGcgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjYWRjOWU1IiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjI1IiB5PSI3OCIgd2lkdGg9IjI3MCIgaGVpZ2h0PSIzNjUiIHJ4PSIxOCIvPjxyZWN0IHg9IjMxNSIgeT0iNzgiIHdpZHRoPSIyNzAiIGhlaWdodD0iMzY1IiByeD0iMTgiLz48cmVjdCB4PSI2MDUiIHk9Ijc4IiB3aWR0aD0iMjcwIiBoZWlnaHQ9IjM2NSIgcng9IjE4Ii8+PC9nPgo8ZyBmaWxsPSIjYjVlNWZhIj48cGF0aCBkPSJNNDggMjI1IFExMDAgMjEwIDE1MCAyMjVUMjcyIDIyNVYzNjJINDhaIi8+PHBhdGggZD0iTTMzOCAyMjUgUTM5MCAyMTAgNDQwIDIyNVQ1NjIgMjI1VjM2MkgzMzhaIi8+PHBhdGggZD0iTTYyOCAyMjUgUTY4MCAyMTAgNzMwIDIyNVQ4NTIgMjI1VjM2Mkg2MjhaIi8+PC9nPgo8ZyBzdHJva2U9IiM0YjkwYmMiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTQ4IDE2N1YzNjJIMjcyVjE2NyIvPjxwYXRoIGQ9Ik0zMzggMTY3VjM2Mkg1NjJWMTY3Ii8+PHBhdGggZD0iTTYyOCAxNjdWMzYySDg1MlYxNjciLz48L2c+CjxyZWN0IHg9Ijk1IiB5PSIyMDEiIHdpZHRoPSIxMzAiIGhlaWdodD0iNDkiIHJ4PSIxMCIgZmlsbD0iI2M4OTA1MiIgc3Ryb2tlPSIjODA1MjJlIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTEwIDIxNEgyMDNNMTIzIDIzM0gyMTEiIHN0cm9rZT0iIzkxNjUzOSIgc3Ryb2tlLXdpZHRoPSIzIi8+CjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsMjApIiBkPSJNNDAyIDM0MCA0MTMgMzEzIDQ0NyAyOTYgNDc5IDMxMiA0OTMgMzQwWiIgZmlsbD0iIzc5ODY5NyIgc3Ryb2tlPSIjNDY1MzYzIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNNDUwIDI1NVYyODNNNDQzIDI3NiA0NTAgMjg1IDQ1NyAyNzYiIHN0cm9rZT0iIzQ4Njg4MyIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik02NTAgMTgxIDY4MyAyNTJINzk3TDgzMCAxODEgODAzIDIyMEg2NzdaIiBmaWxsPSIjYzZkMGRkIiBzdHJva2U9IiM1YjZkODIiIHN0cm9rZS13aWR0aD0iNCIvPjxwYXRoIGQ9Ik02NjAgMTgySDgyMCIgc3Ryb2tlPSIjNWI2ZDgyIiBzdHJva2Utd2lkdGg9IjMiLz4KPHRleHQgeD0iMTYwIiB5PSIxMjIiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPktBWVU8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSIxMjIiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPkJBVFU8L3RleHQ+PHRleHQgeD0iNzQwIiB5PSIxMjIiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI3MDAiPlBFUkFIVTwvdGV4dD4KPHRleHQgeD0iMTYwIiB5PSIzOTgiIGZvbnQtc2l6ZT0iMjUiIGZvbnQtd2VpZ2h0PSI3MDAiPlRFUkFQVU5HPC90ZXh0Pjx0ZXh0IHg9IjQ1MCIgeT0iMzk4IiBmb250LXNpemU9IjI1IiBmb250LXdlaWdodD0iNzAwIj5URU5HR0VMQU08L3RleHQ+PHRleHQgeD0iNzQwIiB5PSIzOTgiIGZvbnQtc2l6ZT0iMjUiIGZvbnQtd2VpZ2h0PSI3MDAiPlRFUkFQVU5HPC90ZXh0Pgo8dGV4dCB4PSI0NTAiIHk9IjQ3NyIgZm9udC1zaXplPSIyMSI+QmFoYW4sIGJlbnR1aywgZGFuIGJlYmFuIGlrdXQgbWVuZW50dWthbiBoYXNpbC48L3RleHQ+CjwvZz48L3N2Zz4K\" alt=\"Contoh pengamatan: kayu dan perahu berada di permukaan air, batu berada di dasar baskom.\" width=\"720\" style=\"max-width:100%;height:auto\"/></p><p><em>Sebagian benda terapung boleh masuk ke air.</em></p>\n<h3>1. Terapung 🪵</h3><p>Benda <strong>terapung</strong> tetap berada di permukaan air. Sebagian benda dapat terendam. Contohnya potongan kayu pada percobaan Raka.</p>\n<h3>2. Tenggelam 🪨</h3><p>Benda <strong>tenggelam</strong> turun ke bawah. Di baskom dangkal, batu Raka sampai ke dasar. Ukuran saja tidak menentukan hasil: batu kecil bisa tenggelam, sedangkan kayu lebih besar bisa terapung.</p>\n<h3>3. Bentuk dan Beban Perahu ⛵</h3><p>Bahan, bentuk, dan beban ikut memengaruhi hasil. Perahu aluminium dibuat <strong>berongga</strong> dengan tepi terangkat. Bentuk ini membantunya terapung.</p><p>Perahu bisa tenggelam jika air masuk atau bebannya terlalu banyak. Letakkan beban <strong>merata</strong> agar tidak berat sebelah.</p>\n<h3>Ayo Mencoba 🔎</h3><p>Bersama pendamping, gunakan baskom dangkal, sedikit air, kayu, dan batu yang cukup besar agar tidak tertelan. Pendamping menyiapkan perahu aluminium. Jauhkan percobaan dari listrik.</p><ol><li>Tulis <strong>dugaan</strong> sebelum mencoba.</li><li>Letakkan benda perlahan, tanpa menekan.</li><li>Catat <strong>hasil</strong> yang terlihat. Jika ragu, ulangi.</li></ol><p>Jika membandingkan bentuk perahu, gunakan jumlah aluminium yang <strong>sama</strong>. Bersihkan tumpahan setelah selesai.</p>\n<h3>Ingat dan Mainkan 🎮</h3><p>Dugaan boleh keliru. Catatan harus sesuai hasil yang terlihat.</p><p>Lengkapi delapan kalimat pengamatan di game. Pilih kata yang sesuai; beberapa kata adalah pengecoh.</p>\n<h3>Video Pendukung 🎬</h3><p>Amati perahu saat bebannya ditambah. Video berbahasa Inggris; tonton bersama pendamping.</p><iframe class=\"ql-video\" src=\"https://www.youtube.com/embed/s7bopU_N_fQ\" title=\"Science Buddies: How Much Weight Can Boats Float?\" frameborder=\"0\" allowfullscreen=\"true\"></iframe><p><a href=\"https://www.youtube.com/watch?v=s7bopU_N_fQ\" target=\"_blank\" rel=\"noopener noreferrer\">Buka video Science Buddies di YouTube</a>.</p>\n<p>Bacaan pendamping: <a href=\"https://www.noaa.gov/office-education/outreach-communication/hands-on-science-activities/build-a-boat\" target=\"_blank\" rel=\"noopener noreferrer\">NOAA: Build a Boat</a> dan <a href=\"https://www.acs.org/education/resources/k-8/inquiryinaction/second-grade.html\" target=\"_blank\" rel=\"noopener noreferrer\">ACS kelas 2</a>. Ilustrasi asli Science Portal.</p>",
+  "game_slug": "sd13-laboratorium-terapung-tenggelam",
+  "game_type": "fill_blanks",
+  "kkm_score": 70,
+  "xp_theory": 15,
+  "xp_pass": 35,
+  "xp_perfect": 60,
+  "badge_name": "Penyelidik Perahu Mini",
+  "created_at": "2026-10-26T12:38:19.521073+00:00",
+  "game_data": {
+    "fill_blanks": [
+      {
+        "answer": "permukaan",
+        "options": [
+          "langit"
+        ],
+        "sentence": "Kayu terapung di [BLANK] air."
+      },
+      {
+        "answer": "dasar",
+        "options": [],
+        "sentence": "Batu tenggelam sampai ke [BLANK] baskom."
+      },
+      {
+        "answer": "dugaan",
+        "options": [],
+        "sentence": "Sebelum mencoba, Raka menulis [BLANK]."
+      },
+      {
+        "answer": "hasil",
+        "options": [],
+        "sentence": "Setelah mencoba, Raka mencatat [BLANK] yang terlihat."
+      },
+      {
+        "answer": "berongga",
+        "options": [
+          "berlubang"
+        ],
+        "sentence": "Perahu dibuat [BLANK], dengan tepi terangkat."
+      },
+      {
+        "answer": "merata",
+        "options": [
+          "menumpuk"
+        ],
+        "sentence": "Beban dibagi [BLANK] agar perahu tidak berat sebelah."
+      },
+      {
+        "answer": "sama",
+        "options": [
+          "berbeda"
+        ],
+        "sentence": "Saat membandingkan bentuk perahu, jumlah aluminium dibuat [BLANK]."
+      },
+      {
+        "answer": "mengulangi",
+        "options": [
+          "menghapus"
+        ],
+        "sentence": "Jika hasil belum jelas, Raka [BLANK] percobaan."
+      }
+    ]
+  },
+  "quiz_data": {
+    "questions": [
+      {
+        "options": [
+          "Tenggelam",
+          "Terapung",
+          "Menguap",
+          "Mencair"
+        ],
+        "question": "Kayu tetap di permukaan, meski sebagian masuk ke air. Kayu itu ...",
+        "timeLimit": 75,
+        "explanation": "Terapung tidak berarti seluruh benda berada di atas air.",
+        "correctAnswerIndex": 1
+      },
+      {
+        "options": [
+          "Ukuran saja tidak cukup",
+          "Semua benda kecil terapung",
+          "Semua benda besar tenggelam",
+          "Batu berubah menjadi air"
+        ],
+        "question": "Batu kecil tenggelam, kayu besar terapung. Apa yang kita pelajari?",
+        "timeLimit": 75,
+        "explanation": "Bahan dan bentuk juga memengaruhi hasil.",
+        "correctAnswerIndex": 0
+      },
+      {
+        "options": [
+          "Terapung agar dugaan benar",
+          "Sesuai jawaban teman",
+          "Tanpa melihat percobaan",
+          "Tenggelam sesuai pengamatan"
+        ],
+        "question": "Kamu menduga batu terapung, tetapi batu tenggelam. Catat hasil ...",
+        "timeLimit": 75,
+        "explanation": "Catatan harus sesuai kejadian yang diamati.",
+        "correctAnswerIndex": 3
+      },
+      {
+        "options": [
+          "Tambah beban di kiri",
+          "Sebarkan beban merata",
+          "Lubangi perahu",
+          "Tekan perahu"
+        ],
+        "question": "Perahu miring karena beban menumpuk di kiri. Coba ...",
+        "timeLimit": 75,
+        "explanation": "Beban merata membantu perahu seimbang.",
+        "correctAnswerIndex": 1
+      },
+      {
+        "options": [
+          "Warna air",
+          "Nama perahu",
+          "Jumlah beban",
+          "Bahan baskom"
+        ],
+        "question": "Perahu terapung. Setelah terlalu banyak beban, perahu tenggelam. Apa yang berubah?",
+        "timeLimit": 75,
+        "explanation": "Beban yang ditambahkan dapat mengubah hasil.",
+        "correctAnswerIndex": 2
+      },
+      {
+        "options": [
+          "Letakkan perlahan lalu amati",
+          "Lempar sekuatnya",
+          "Tekan terus ke dasar",
+          "Pegang di atas air"
+        ],
+        "question": "Bagaimana cara menguji benda di air?",
+        "timeLimit": 75,
+        "explanation": "Lepaskan benda perlahan agar hasil tidak dipengaruhi tangan.",
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  "is_published": true
+}

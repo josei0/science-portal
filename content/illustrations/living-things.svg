@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-labelledby="title desc">
+<title id="title">Amati cirinya, bukan hanya geraknya</title>
+<desc id="desc">Kucing dan tanaman adalah makhluk hidup. Robot mainan dan batu adalah benda tak hidup. Robot dapat bergerak tetapi tidak tumbuh atau bernapas.</desc>
+<rect width="800" height="430" rx="24" fill="#fff8ed"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#243c38">
+<text x="400" y="42" font-size="27" font-weight="700">AMATI CIRI-CIRINYA</text>
+<rect x="22" y="66" width="368" height="294" rx="20" fill="#e6f5e8"/>
+<rect x="410" y="66" width="368" height="294" rx="20" fill="#e8effc"/>
+<text x="206" y="105" font-size="25" font-weight="700">MAKHLUK HIDUP</text>
+<text x="594" y="105" font-size="25" font-weight="700">BENDA TAK HIDUP</text>
+<g stroke="#9d632f" stroke-width="4" fill="#edb36e">
+<ellipse cx="124" cy="226" rx="44" ry="37"/><path d="M88 173 83 136 111 155M137 155 165 136 159 178"/>
+<ellipse cx="124" cy="183" rx="43" ry="35"/><path d="M163 234Q198 233 181 198" fill="none" stroke-width="11" stroke-linecap="round"/>
+</g>
+<g fill="#3b302c"><circle cx="110" cy="181" r="4"/><circle cx="139" cy="181" r="4"/><path d="m119 194 11 0-6 6Z"/></g>
+<path d="M270 249V168" stroke="#397850" stroke-width="8"/>
+<path d="M270 207Q223 205 228 168Q271 166 270 207M272 181Q312 180 313 143Q272 142 272 181" fill="#5da969"/>
+<path d="M237 233H304L291 268H249Z" fill="#cf8656"/>
+<text x="124" y="298" font-size="22">Kucing</text><text x="272" y="298" font-size="22">Tanaman</text>
+<text x="206" y="335" font-size="19">Tumbuh dan membutuhkan air</text>
+<g stroke="#526c96" stroke-width="4" fill="#a8c4ec">
+<rect x="461" y="156" width="79" height="65" rx="11"/><rect x="470" y="225" width="63" height="40" rx="8"/>
+<path d="M500 156V137M480 266V278M522 266V278M470 235H450M533 235H550"/>
+</g>
+<circle cx="500" cy="134" r="6" fill="#e9a643"/>
+<circle cx="481" cy="181" r="6" fill="#354b6e"/><circle cx="519" cy="181" r="6" fill="#354b6e"/>
+<path d="M485 204H515" stroke="#354b6e" stroke-width="4"/>
+<path d="m639 244 12-47 34-20 37 17 15 44-19 23-57 3Z" fill="#a8a9ae" stroke="#737984" stroke-width="4"/>
+<path d="m650 204 31 12 39-15m-39 15-10 39" stroke="#d5d6dc" stroke-width="3" fill="none"/>
+<text x="500" y="298" font-size="22">Robot mainan</text><text x="685" y="298" font-size="22">Batu</text>
+<text x="594" y="335" font-size="19">Tidak tumbuh atau bernapas</text>
+<text x="400" y="397" font-size="22" font-weight="700">Bergerak saja belum berarti hidup!</text>
+</g></svg>

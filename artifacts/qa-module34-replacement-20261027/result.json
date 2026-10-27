@@ -1,0 +1,41 @@
+{
+  "testedAt": "2026-10-27T06:08:01.915Z",
+  "url": "https://lcs-science-portal.vercel.app/dashboard/module/34",
+  "student": {
+    "role": "student",
+    "grade_level": 2,
+    "xp": 110
+  },
+  "quiz": {
+    "questions": 6,
+    "correct": 6,
+    "score": 100
+  },
+  "game": {
+    "blanks": 8,
+    "correct": 8
+  },
+  "progress": {
+    "material_id": 34,
+    "is_theory_completed": true,
+    "highscore": 100,
+    "attempts": 1,
+    "is_module_completed": true,
+    "xp_earned": 95,
+    "badge_earned": true
+  },
+  "preservedUserEdits": [
+    33,
+    35
+  ],
+  "reloadPersists": true,
+  "illustrationLoaded": true,
+  "supportingVideoPlayed": true,
+  "cleanupVerified": true,
+  "dashboard": {
+    "totalXp": 110,
+    "completedModules": 1,
+    "moduleProgress": 100,
+    "score": 100
+  }
+}

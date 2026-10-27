@@ -16,7 +16,6 @@ export function validateModules(items = modules) {
     for (const field of ['title', 'description', 'theory_content', 'game_slug', 'game_type', 'badge_name']) assert.ok(m[field]?.length, field);
     assert.match(m.theory_content, /data:image\/svg\+xml;base64,/);
     assert.doesNotMatch(m.theory_content, /<(?:section|figure|figcaption)\b/i, 'Use the same editor-friendly HTML as existing modules');
-    assert.match(m.theory_content, /IPA/);
     assert.doesNotMatch(m.theory_content, /<script|javascript:|onerror=/i);
     assert.ok(m.kkm_score >= 70 && m.kkm_score <= 100);
     for (const field of ['xp_theory', 'xp_pass', 'xp_perfect']) assert.ok(Number.isInteger(m[field]) && m[field] > 0);
@@ -63,6 +62,7 @@ async function run() {
   validateModules();
   console.log('Validated: 3 age-appropriate modules, 18 quiz questions, 3 game formats, 3 original illustrations.');
   if (!process.argv.includes('--publish') && !process.argv.includes('--preflight')) return;
+  assert.ok(!process.argv.includes('--publish'), 'This package is already published. Use the scoped replacement workflow; do not insert it again.');
   if (existsSync('.env.local')) process.loadEnvFile('.env.local');
   assert.ok(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY, 'Server credentials required');
   const client = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY, {

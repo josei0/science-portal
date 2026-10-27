@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-10-27T01:32:36.322Z",
+  "id": 34,
+  "title": "Makhluk Hidup dan Benda Tak Hidup",
+  "url": "https://lcs-science-portal.vercel.app/dashboard/module/34",
+  "maxId": 35,
+  "totalModules": 35,
+  "otherModulesUnchanged": 34,
+  "preservedUserEdits": [
+    {
+      "id": 33,
+      "hash": "83932514a6df62e2fd4e027a365282668a50806f42da60bdd195db759ffc1074"
+    },
+    {
+      "id": 35,
+      "hash": "4784bc33debbf2bfec09eeae6caf1607cd38c96e584363bc0cc2f42b3d31afa8"
+    }
+  ],
+  "beforeHash": "f2ed245d1d3aac7576c4f106bfb57df398b1ab3f273b4fb7d87a65324c8ca6b2",
+  "afterHash": "8e5055f6023af15a1a0446414252c61d88d63fd0481aebc0733a4aec90d400d1",
+  "published": true,
+  "publicReadVerified": true
+}

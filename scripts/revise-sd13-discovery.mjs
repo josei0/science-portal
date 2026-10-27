@@ -14,6 +14,7 @@ const hash = value => createHash('sha256').update(canonical(value)).digest('hex'
 const normalize = value => value.normalize('NFKC').toLocaleLowerCase('id').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 
 async function run() {
+  assert.ok(!process.argv.includes('--apply'), 'Historical revision retired: preserve the user edits from 27 October and use the scoped module-34 replacement workflow.');
   validateModules();
   assert.deepEqual(baseline.map(m => m.id).sort(), [33, 34, 35]);
   const planned = modules.map(module => {

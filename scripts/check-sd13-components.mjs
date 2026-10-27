@@ -62,7 +62,7 @@ for (const m of modules) {
   if (m.game_type === 'dynamic_match') for (const p of m.game_data.dynamic_match.pairs) for (const item of p.items) assert.ok(game.includes(item));
   if (m.game_type === 'fill_blanks') {
     for (const q of m.game_data.fill_blanks) assert.ok(game.includes(q.answer));
-    assert.ok(game.includes('Raka'));
+    assert.ok(game.includes(m.game_data.fill_blanks[0].sentence.split('[BLANK]')[0].trim()));
     assert.doesNotMatch(game, /\[BLANK\]|\[b\d\]/);
   }
   console.log(`PASS: ${m.title} — actual teacher editor, 6-question quiz editor, student game initialization`);
